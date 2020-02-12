@@ -1,0 +1,71 @@
+port,vlan,mac address,address,description
+Port-channel6         ,40,000b.abab.174a, 10.241.22.206,"""TO_6500_CORE"""
+Port-channel6         ,40,000b.abab.1a98, 10.241.22.211 10.241.22.216,"""TO_6500_CORE"""
+Port-channel2         ,40,0050.569f.2b88,,"""DMZ-2-FLEX"""
+Port-channel2         ,40,0050.569f.2cae,,"""DMZ-2-FLEX"""
+Port-channel2         ,40,0050.569f.432f,,"""DMZ-2-FLEX"""
+Port-channel2         ,40,0050.569f.44b7, 10.241.22.207,"""DMZ-2-FLEX"""
+Port-channel2         ,40,0050.569f.5471, 10.241.22.194,"""DMZ-2-FLEX"""
+Port-channel2         ,40,0050.569f.56c6, 10.241.22.217,"""DMZ-2-FLEX"""
+Port-channel2         ,40,0050.569f.5dba, 10.241.22.202,"""DMZ-2-FLEX"""
+Port-channel2         ,40,0050.569f.6c75, 10.241.22.203,"""DMZ-2-FLEX"""
+Port-channel6         ,40,64a0.e7b3.d800, 10.110.1.1,"""TO_6500_CORE"""
+Switch                ,40,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+Port-channel6         ,40,b40c.25e1.0010, 10.241.22.193,"""TO_6500_CORE"""
+GigabitEthernet1/19   ,40,f415.6365.4209,,F5_port1/1
+GigabitEthernet1/1    ,40,f415.6366.4209,,F5-SEC-PORT1.1
+Port-channel7         ,50,001b.1700.0330,,PORT-CHANNEL PALO_ALTO INSIDE
+Port-channel6         ,50,b40c.25e1.0010, 10.241.22.193,"""TO_6500_CORE"""
+Port-channel6         ,60,001b.1700.0231,,"""TO_6500_CORE"""
+Port-channel8         ,60,001b.1700.0331,,PORT-CHANNEL PALO_ALTO OUTSIDE
+GigabitEthernet1/7    ,60,0062.ecb5.7b81,,LINK TO OUTSIDE INTERNET
+Port-channel7         ,70,001b.1700.0330,,PORT-CHANNEL PALO_ALTO INSIDE
+Switch                ,70,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+Port-channel7         ,80,001b.1700.0330,,PORT-CHANNEL PALO_ALTO INSIDE
+Switch                ,80,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+Port-channel7         ,100,001b.1700.0330,,PORT-CHANNEL PALO_ALTO INSIDE
+Switch                ,100,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+Port-channel10        ,398,001b.1700.0333, 192.168.1.1,PORT-CHANNEL PALO_ALTO eDMZ
+Port-channel2         ,398,0050.569f.022d,,"""DMZ-2-FLEX"""
+Port-channel2         ,398,0050.569f.18e0,,"""DMZ-2-FLEX"""
+Port-channel2         ,398,0050.569f.2045,,"""DMZ-2-FLEX"""
+Port-channel2         ,398,0050.569f.33f3, 192.168.1.52,"""DMZ-2-FLEX"""
+Port-channel2         ,398,0050.569f.44e2, 192.168.1.20,"""DMZ-2-FLEX"""
+Port-channel2         ,398,0050.569f.5a8c,,"""DMZ-2-FLEX"""
+Switch                ,398,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+GigabitEthernet1/28   ,398,f415.6365.4208, 192.168.1.13,F5_port1/2
+GigabitEthernet1/3    ,398,f415.6366.4208,,F5-SEC-PORT1.2
+Port-channel6         ,400,64a0.e7b3.d800, 10.110.1.1,"""TO_6500_CORE"""
+Port-channel6         ,400,7499.75e4.6100,,"""TO_6500_CORE"""
+Switch                ,400,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+Port-channel6         ,400,b40c.25e1.0011, 10.110.1.62,"""TO_6500_CORE"""
+Port-channel9         ,468,001b.1700.0332,,PORT-CHANNEL PALO_ALTO iDMZ 
+Port-channel2         ,468,0050.569f.2b01,,"""DMZ-2-FLEX"""
+Switch                ,468,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+Port-channel2         ,511,0050.569f.05f5, 10.110.11.25,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.1d7f, 10.110.11.17,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.2a4b,,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.2b60,,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.37e4,,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.3a3d, 10.110.11.28,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.4785, 10.110.11.201,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.53cd, 10.110.11.35,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.6edc,,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.7749, 10.110.11.18,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.7a6a, 10.110.11.20,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.7d2b, 10.110.11.12 10.110.11.13 10.110.11.14 10.110.11.22,"""DMZ-2-FLEX"""
+Port-channel2         ,511,0050.569f.7f31, 10.110.11.19,"""DMZ-2-FLEX"""
+Switch                ,511,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,
+Port-channel6         ,511,b40c.25e1.0010, 10.241.22.193,"""TO_6500_CORE"""
+GigabitEthernet1/12   ,511,f415.6365.4205,,F5-Port2/1
+GigabitEthernet1/9    ,511,f415.6366.4205,,F5-Sec-Port2/1
+GigabitEthernet1/47   ,802,001b.1700.0130,,TO-PA3020-ZAM
+GigabitEthernet1/7    ,802,0062.ecb5.7b81,,LINK TO OUTSIDE INTERNET
+GigabitEthernet1/5    ,803,0000.0c07.ac01,,INT_TELMEX_100MB_FTX1539AJJX
+GigabitEthernet1/5    ,803,0000.0c07.ac02,,INT_TELMEX_100MB_FTX1539AJJX
+Port-channel6         ,803,001b.1700.0231,,"""TO_6500_CORE"""
+Port-channel8         ,803,001b.1700.0331,,PORT-CHANNEL PALO_ALTO OUTSIDE
+GigabitEthernet1/6    ,803,0896.ada7.c850,,INT_TELMEX_50MB_FTX1529AHNR
+GigabitEthernet1/5    ,803,0896.ada7.cbd0,,INT_TELMEX_100MB_FTX1539AJJX
+Port-channel6         ,883,0000.0000.0010,,"""TO_6500_CORE"""
+Switch                ,Gi1/15,78da.6e62.ecff, 1.50.0.13 10.110.1.55 10.110.11.253 10.241.22.200 10.241.22.250 192.168.1.100 192.168.40.100 192.168.41.100 192.168.43.100,

@@ -1,0 +1,367 @@
+Interface,Description
+Gi1/1,STP_A
+Gi1/2,STP_B
+Gi1/3,VPN 3030 A PD.
+Gi1/4,RolloBox
+Gi1/5,HLR/MSC3
+Gi1/6,JUN_TLA_A
+Gi1/7,R4 SF V890 NIC Interface 0 - ce0
+Gi1/8,R4 SF V890 NIC Interface 0 - ce1
+Gi1/9,R4 SF V890 NIC Interface 0 - ce2
+Gi1/10,R4 Switch  BSTK_470-24T
+Gi1/11,AlarmaP1
+Gi1/12,Xyplex
+Gi1/13,new_STP_A_27_3
+Gi1/14,VCM
+Gi1/15,Conexion a TELCEL-NEXTENGO
+Gi1/16,Tellamon
+Gi1/17,TO IT VSS1 PTO 1/1/14 (inside FWSM) **OLD**
+Gi1/18,Vlan924_Portabilidad
+Gi1/19,ESU_4
+Gi1/20,STPB_27_98
+Gi1/21,To-Orion-3G-182.68
+Gi1/22,To-Orion-3G-182.69
+Gi1/23,3rd_A_outside
+Gi1/24,3rd_A_trunk
+Gi1/25,NewOrion3GServer2
+Gi1/26,PuertoError
+Gi1/27,"""To-FW-Primario"""
+Gi1/28,Switch_ALU_Sala_Arquimides
+Gi1/29,DCN_GDL
+Gi1/30,VPN_ASA5585_A
+Gi1/31,Manager_1
+Gi1/32,"""Conexion RFN"""
+Gi1/33,IGWB_GMSC_Expansion_A
+Gi1/34,SMSC_MGMT
+Gi1/35,to PD_CATA_11/27
+Gi1/36,EIU
+Gi1/37,
+Gi1/38,STPB_27_66
+Gi1/39,To-DB-SRV-Orion-3G-182.72
+Gi1/40,OMC-R Primary E0
+Gi1/41,OMC-R Secundary 1 E0
+Gi1/42,To-DB-SRV-Orion-3G-182.73
+Gi1/43,
+Gi1/44,DCN_sala_morada
+Gi1/45,Storage Server
+Gi1/46,MG3_description R4_OAM_Sh1_S7_P1
+Gi1/47,ALU FEPs
+Gi1/48,ALU FEPs
+Gi2/1,"""port jodido"""
+Gi2/2,STP_A_27_3
+Gi2/3,SetMachine
+Gi2/4,Vlan825_Portabilidad
+Gi2/5,FRU1
+Gi2/6,STPB_27_68
+Gi2/7,DropBoxNortel
+Gi2/8,ALU_EXTERNAL_GGSN
+Gi2/9,Billing_server1_Softswitch LDN
+Gi2/10,Prov_Serv_MSO_A
+Gi2/11,Internal ICC Server
+Gi2/12,Xyplex
+Gi2/13,NGOMC-R_Laptop Motorola
+Gi2/14,Secure Tekelec Server
+Gi2/15,3524_TLA_182_16
+Gi2/16,Work Station NOC-10.103.182.28-
+Gi2/17,Billing SDM
+Gi2/18,
+Gi2/19,mexsumdr02 ILO
+Gi2/20,Conexion al iSG0
+Gi2/21,
+Gi2/22,
+Gi2/23,3rd_A_inside
+Gi2/24,
+Gi2/25,
+Gi2/26,2950ND
+Gi2/27,ESU_1
+Gi2/28,To-MXTLAM01RTCOREIPS01
+Gi2/28.30,To-MXTLAM01RTCOREIPS01
+Gi2/29,NETSYSTEM
+Gi2/30,NETSYSTEM
+Gi2/31,ATS_STS2_GTW 0
+Gi2/32,ATS_STS2_GTW 1
+Gi2/33,IGWB_GMSC_Expansion_A
+Gi2/34,NGOMC-R Switch
+Gi2/35,to IPS-E8160E-1-G10/1/3
+Gi2/35.1,Nextel_Signal to IPS-E8160E-1
+Gi2/35.2,Nextel_O & M to IPS-E8160E-1
+Gi2/35.3,Nextel_Voice to IPS-E8160E-1
+Gi2/35.4,Nextel_ BusinessHall&billing to IPS-E8160E-1
+Gi2/36,Conexion al iSG0
+Gi2/37,
+Gi2/38,"""Router_SSP_Admin"""
+Gi2/39,
+Gi2/40,Conexion al iSG1
+Gi2/41,OMC-R Secundary 1 ALOM
+Gi2/42,R4_MGW_OAM_Sh1_CP3
+Gi2/43,R4_NetGuardian
+Gi2/44,Printer OMC-R
+Gi2/45,MSC3_CO
+Gi2/46,StoreEdge C4
+Gi2/47,TO NEXTEL-P-SW01 PTO G1/0/47
+Gi2/48,TO NEXTEL-P-SW01 PTO G1/0/48
+Gi3/1,TO IT VSS1 PTO 1/4/14 (inside FWSM)
+Gi3/2,
+Gi3/3,
+Gi3/4,TerminalNETBOSS
+Gi3/5,new_STPB_27_68
+Gi3/6,OAP
+Gi3/7,
+Gi3/8,3COMSentinel
+Gi3/9,SwitchMartis
+Gi3/10,TS_IOLAN
+Gi3/11,Internal ICC Server
+Gi3/12,
+Gi3/13,
+Gi3/14,SigtranA_sw1_Softswitch
+Gi3/15,
+Gi3/16,Trunk sw1 O&M_Softswitch
+Gi3/17,ALU_EXTERNAL_GGSN
+Gi3/18,Billing_server1_Softswitch
+Gi3/19,"""ICM_Router_222_100"""
+Gi3/20,SSGNortel
+Gi3/21,ServBilling
+Gi3/22,Puerto de Pruebas
+Gi3/23,
+Gi3/24,MEXCOTLC3750_182_28 AGPS
+Gi3/25,SW_RDTA_3750_187_4
+Gi3/26,2950ND
+Gi3/27,
+Gi3/28,MNGT_F5_VIPRION_A
+Gi3/29,Ceragaon
+Gi3/30,Server_1
+Gi3/31,
+Gi3/32,"""Echo canceller """
+Gi3/33,F5_ifun_A
+Gi3/34,NEW_EIU
+Gi3/35,R4_MGW_OAM_Sh2_CP3
+Gi3/36,IHLR-LAB_A_ee0
+Gi3/37,IHLR-LAB_B_ee0
+Gi3/38,
+Gi3/39,
+Gi3/40,IGWB 207.09.08.A
+Gi3/41,MSC3_OAM
+Gi3/42,MSC3_OAM
+Gi3/43,iGW_DNS_A_mgmt
+Gi3/44,
+Gi3/45,GMSC TLA
+Gi3/46,BlackBox 0
+Gi3/47,
+Gi3/48,
+Gi4/1,3524_TLA_182_10
+Gi4/2,3524_TLA_182_13
+Gi4/3,3524_TLA_183_194
+Gi4/4,MEXCOTLC3750_182_6
+Gi4/5,to_3B
+Gi4/6,To Switch 3550_TLA_182_17
+Gi4/7,Switch_ALU_Sala_Arquimides_Conex_Fibra
+Gi4/8,
+Gi4/9,
+Gi4/10,
+Gi4/11,
+Gi4/12,
+Gi4/13,
+Gi4/14,
+Gi4/15,
+Gi4/16,
+Gi5/1,
+Gi5/2,
+Gi6/1,
+Gi6/2,
+Gi7/1,R4_NGW_OAM_S2_P2
+Gi7/2,
+Gi7/3,R4_Signaling_MG_Sh1_S7_P0
+Gi7/4,R4_Signaling_MG_Sh2_S6_P0
+Gi7/5,R4_NGW_CallIP_S2_P1
+Gi7/6,R4_VOIP_Bearer_Sh1_S7_P1
+Gi7/7,R4_VOIP_Bearer_Sh2_S6_P1
+Gi7/8,R4_VOIP_Bearer_Sh1_S7_P2
+Gi7/9,R4_VOIP_Bearer_Sh2_S7_P2
+Gi7/10,R4_Signaling_MG3_Sh1_S7_P0
+Gi7/11,R4_VOIP_Bearer_Sh1_S7_P1
+Gi7/12,R4_VOIP_Bearer_Sh1_S7_P2
+Gi7/13,
+Gi7/14,
+Gi7/15,
+Gi7/16,
+Gi7/17,
+Gi7/18,
+Gi7/19,
+Gi7/20,
+Gi7/21,
+Gi7/22,
+Gi7/23,
+Gi7/24,
+Gi9/1,
+Gi9/2,
+Gi9/3,Conexion al iSG1
+Gi9/4,
+Gi9/5,
+Gi9/6,
+Gi9/7,
+Gi9/8,MEXCOTLC2960_253_200_g0/23(JMR)
+Gi9/9,
+Gi9/10,
+Gi9/11,SCOTTY_NEW
+Gi9/12,Server Envios Masivos
+Gi9/13,
+Gi9/14,
+Gi9/15,"""Acterna SPAN Monitor Session"""
+Gi9/16,
+Gi9/17,"""CALEA_Router_222_65"""
+Gi9/18,CX-600-3G-Monitoreo
+Gi9/19,
+Gi9/20,
+Gi9/21,
+Gi9/22,
+Gi9/23,
+Gi9/24,
+Gi9/25,
+Gi9/26,
+Gi9/27,
+Gi9/28,
+Gi9/29,ASTELLIA MSO2
+Gi9/30,
+Gi9/31,ALU_RAMSES
+Gi9/32,
+Gi9/33,
+Gi9/34,Servidor Alcatel
+Gi9/35,
+Gi9/36,2950_NDM
+Gi9/37,
+Gi9/38,TO CAT_A_221_74 nodo_6340_ID_26_slot16
+Gi9/39,
+Gi9/40,
+Gi9/41,ALU FEPs
+Gi9/42,ALU FEPs
+Gi9/43,
+Gi9/44,Acterna Interface de gestion 182.160 PD
+Gi9/45,"""Temporal ALU_LAB3G"""
+Gi9/46,"""Trunk SWITCH_ALU1"""
+Gi9/47,"""R4 Monitor Session"""
+Gi9/48,Acterna Interface de gestion 182.39 MSO
+Lo11,
+Lo12,
+Lo13,
+Lo14,
+Po1,
+Po2,
+Po3,ALU_EXTERNAL_GGSN
+Vl1,
+Vl50,iHLR
+Vl52,iHLR2
+Vl60,OMC_MEXICO
+Vl61,OMC-R 1.0
+Vl63,NGMS PTP
+Vl64,Calea XCPIO
+Vl65,Calea Dispatch iSG 0
+Vl66,Calea Dispatch iSG 1
+Vl67,Provisioning Server MSO
+Vl69,BlackBox
+Vl74,MiniOMC E0 Switch
+Vl86,Red FRU
+Vl101,DCN Oscar Zuniga
+Vl102,DCN Guadalajara
+Vl103,DCN Monterrey
+Vl104,DCN Reynosa
+Vl110,DCN Ceragon
+Vl117,PASSPORT8600-0
+Vl118,PASSPORT8600-1
+Vl119,PASSPORT-MGMNT
+Vl120,EUI MSC5
+Vl126,MSC3_OAM
+Vl127,CBM_MSC3_A
+Vl128,CBM_MSC3_B
+Vl129,MSC3_CO
+Vl187,Sincronia y EcoCanceladores
+Vl188,OSPF Interoperability 2G-3G
+Vl202,TO_PDFW_private
+Vl580,JUNIPER M7i TLA_A
+Vl600,DCN GESTION
+Vl601,DCN Aguascalientes
+Vl603,DCN BCS
+Vl604,DCN Campeche
+Vl606,DCN CD_Juarez
+Vl607,DCN Torreon
+Vl608,DCN Colima
+Vl610,DCN Durango
+Vl611,DCN EDOMEX
+Vl612,DCN Guanajuato
+Vl614,DCN Hidalgo
+Vl615,DCN GDL via ESU
+Vl616,DCN Michoacan
+Vl617,DCN Morelos
+Vl619,DCN Nvo Leon
+Vl623,DCN Cancun
+Vl624,DCN SLP
+Vl625,DCN Sinaloa
+Vl626,DCN Sonora
+Vl627,DCN Tabasco
+Vl628,DCN Reynosa
+Vl630,DCN Jalapa
+Vl631,DCN Merida
+Vl632,DCN Zacatecas
+Vl633,DCN GESTION_2
+Vl635,MAILNEXTEL_MGMT
+Vl640,DCN EDOMEX_2
+Vl696,SigtranB_Softswitch
+Vl697,SigtranA_Softswitch
+Vl698,Billing_Softswitch
+Vl699,Temporal_CGC_RFN
+Vl825,MGMT_Tlal_Port
+Vl831,
+Vl861,R4 VSE NGW OAM
+Vl862,R4 VSE NGW OAM
+Vl863,R4_Signaling_MG_Sh1_S7_P0
+Vl866,R4_Signaling_MG_Sh2_S6_P0
+Vl867,R4 VSE NGW CallP Port
+Vl870,R4 W-NMS OAM-OAM
+Vl871,R4 W-NMS  B&R
+Vl872,R4 W-NMS  OAM-NE
+Vl873,R4_Signaling_MG3_Sh1_S7_P0
+Vl876,ATS_SS7_Gtw0
+Vl877,ATS_SS7_Gtw1
+Vl881,R4_VOIP_Bearer_Sh1_S7_P1
+Vl884,R4_VOIP_Bearer_Sh2_S6_P1
+Vl885,IP MGMT-PORTABILITY
+Vl886,R4_VOIP_Bearer_MG3_Sh1_S7_P1_P2
+Vl890,R4_Backbone
+Vl891,IP INTERNAL-PORTABILITY
+Vl901,ALU O&M Support
+Vl902,ALU SM01 TestBed
+Vl903,ALU SM01 TestBed
+Vl904,ALU ICC TestBed
+Vl905,ALU O&M TestBed
+Vl911,ASTELLIA MSO2
+Vl918,STPA_Port_Tlal
+Vl921,STPB_Port_Tlal
+Vl924,SigtranA_Tlal_Port
+Vl925,SigtranB_Tlal_Port
+Vl928,STP2_Tlal
+Vl929,STP2B_Tlal
+Vl930,ALU_OAMSOL
+Vl931,ALU_A1ICC-SRP
+Vl932,ALU_A2ICC-SRP
+Vl933,ALU_A1WCS
+Vl934,ALU_A2WCS
+Vl943,SENTINEL
+Vl946,"ORYX, CAT4006MSO, 142CAT1900"
+Vl947,RADIOS_WIRELESS_NOC
+Vl948,Tellabs TEST
+Vl952,Red Eventual de MONITOREO y Edificio B
+Vl960,OPERACIONES
+Vl961,RED NMS MSO
+Vl962,"TELLABS, MARTIS, VERITY 3100"
+Vl963,3rd_A_inside
+Vl965,PRUEBAS
+Vl967,EIU HLRG
+Vl968,ALU_SMAdmin
+Vl969,ALU_SMIntranet
+Vl975,iHLR ee0 interface
+Vl976,iHLR ee2 interface
+Vl981,IP SIGTRAN_A-PORTABILITY
+Vl982,IP SIGTRAN_B-PORTABILITY
+Vl990,iHLR ee2 interface
+Vl995,M2PA MOP
+Vl996,traps_caps
+Vl1000,DCN Guadalajara_2

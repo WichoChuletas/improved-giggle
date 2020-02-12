@@ -1,0 +1,367 @@
+Interface                      Status         Protocol Description
+Gi1/1                          admin down     down     STP_A
+Gi1/2                          up             up       STP_B
+Gi1/3                          down           down     VPN 3030 A PD.
+Gi1/4                          admin down     down     RolloBox
+Gi1/5                          admin down     down     HLR/MSC3
+Gi1/6                          up             up       JUN_TLA_A
+Gi1/7                          admin down     down     R4 SF V890 NIC Interface 0 - ce0
+Gi1/8                          admin down     down     R4 SF V890 NIC Interface 0 - ce1
+Gi1/9                          admin down     down     R4 SF V890 NIC Interface 0 - ce2
+Gi1/10                         admin down     down     R4 Switch  BSTK_470-24T
+Gi1/11                         up             up       AlarmaP1
+Gi1/12                         up             up       Xyplex
+Gi1/13                         up             up       new_STP_A_27_3
+Gi1/14                         up             up       VCM
+Gi1/15                         up             up       Conexion a TELCEL-NEXTENGO
+Gi1/16                         admin down     down     Tellamon
+Gi1/17                         admin down     down     TO IT VSS1 PTO 1/1/14 (inside FWSM) **OLD**
+Gi1/18                         admin down     down     Vlan924_Portabilidad
+Gi1/19                         up             up       ESU_4
+Gi1/20                         up             up       STPB_27_98
+Gi1/21                         up             up       To-Orion-3G-182.68
+Gi1/22                         up             up       To-Orion-3G-182.69
+Gi1/23                         up             up       3rd_A_outside
+Gi1/24                         up             up       3rd_A_trunk
+Gi1/25                         up             up       NewOrion3GServer2
+Gi1/26                         admin down     down     PuertoError
+Gi1/27                         admin down     down     "To-FW-Primario"
+Gi1/28                         down           down     Switch_ALU_Sala_Arquimides
+Gi1/29                         down           down     DCN_GDL
+Gi1/30                         up             up       VPN_ASA5585_A
+Gi1/31                         up             up       Manager_1
+Gi1/32                         up             up       "Conexion RFN" 
+Gi1/33                         up             up       IGWB_GMSC_Expansion_A
+Gi1/34                         admin down     down     SMSC_MGMT 
+Gi1/35                         up             up       to PD_CATA_11/27
+Gi1/36                         admin down     down     EIU
+Gi1/37                         admin down     down     
+Gi1/38                         up             up       STPB_27_66
+Gi1/39                         up             up       To-DB-SRV-Orion-3G-182.72
+Gi1/40                         down           down     OMC-R Primary E0
+Gi1/41                         down           down     OMC-R Secundary 1 E0
+Gi1/42                         down           down     To-DB-SRV-Orion-3G-182.73
+Gi1/43                         up             up       
+Gi1/44                         up             up       DCN_sala_morada
+Gi1/45                         down           down     Storage Server
+Gi1/46                         admin down     down     MG3_description R4_OAM_Sh1_S7_P1
+Gi1/47                         admin down     down     ALU FEPs
+Gi1/48                         admin down     down     ALU FEPs
+Gi2/1                          admin down     down     "port jodido"
+Gi2/2                          admin down     down     STP_A_27_3
+Gi2/3                          admin down     down     SetMachine
+Gi2/4                          admin down     down     Vlan825_Portabilidad
+Gi2/5                          up             up       FRU1
+Gi2/6                          admin down     down     STPB_27_68
+Gi2/7                          admin down     down     DropBoxNortel
+Gi2/8                          admin down     down     ALU_EXTERNAL_GGSN
+Gi2/9                          admin down     down     Billing_server1_Softswitch LDN
+Gi2/10                         admin down     down     Prov_Serv_MSO_A
+Gi2/11                         admin down     down     Internal ICC Server
+Gi2/12                         admin down     down     Xyplex
+Gi2/13                         down           down     NGOMC-R_Laptop Motorola
+Gi2/14                         admin down     down     Secure Tekelec Server 
+Gi2/15                         up             up       3524_TLA_182_16
+Gi2/16                         admin down     down     Work Station NOC-10.103.182.28-
+Gi2/17                         up             up       Billing SDM 
+Gi2/18                         admin down     down     
+Gi2/19                         down           down     mexsumdr02 ILO
+Gi2/20                         down           down     Conexion al iSG0
+Gi2/21                         admin down     down     
+Gi2/22                         admin down     down     
+Gi2/23                         up             up       3rd_A_inside
+Gi2/24                         admin down     down     
+Gi2/25                         admin down     down     
+Gi2/26                         down           down     2950ND
+Gi2/27                         up             up       ESU_1
+Gi2/28                         admin down     down     To-MXTLAM01RTCOREIPS01
+Gi2/28.30                      admin down     down     To-MXTLAM01RTCOREIPS01
+Gi2/29                         admin down     down     NETSYSTEM
+Gi2/30                         admin down     down     NETSYSTEM
+Gi2/31                         admin down     down     ATS_STS2_GTW 0
+Gi2/32                         admin down     down     ATS_STS2_GTW 1
+Gi2/33                         up             up       IGWB_GMSC_Expansion_A
+Gi2/34                         admin down     down     NGOMC-R Switch
+Gi2/35                         up             up       to IPS-E8160E-1-G10/1/3
+Gi2/35.1                       up             up       Nextel_Signal to IPS-E8160E-1
+Gi2/35.2                       up             up       Nextel_O & M to IPS-E8160E-1
+Gi2/35.3                       up             up       Nextel_Voice to IPS-E8160E-1
+Gi2/35.4                       up             up       Nextel_ BusinessHall&billing to IPS-E8160E-1
+Gi2/36                         admin down     down     Conexion al iSG0
+Gi2/37                         up             up       
+Gi2/38                         up             up       "Router_SSP_Admin"
+Gi2/39                         up             up       
+Gi2/40                         down           down     Conexion al iSG1
+Gi2/41                         down           down     OMC-R Secundary 1 ALOM
+Gi2/42                         admin down     down     R4_MGW_OAM_Sh1_CP3
+Gi2/43                         admin down     down     R4_NetGuardian
+Gi2/44                         down           down     Printer OMC-R
+Gi2/45                         admin down     down     MSC3_CO
+Gi2/46                         down           down     StoreEdge C4
+Gi2/47                         admin down     down     TO NEXTEL-P-SW01 PTO G1/0/47
+Gi2/48                         admin down     down     TO NEXTEL-P-SW01 PTO G1/0/48
+Gi3/1                          up             up       TO IT VSS1 PTO 1/4/14 (inside FWSM)
+Gi3/2                          admin down     down     
+Gi3/3                          admin down     down     
+Gi3/4                          admin down     down     TerminalNETBOSS
+Gi3/5                          up             up       new_STPB_27_68
+Gi3/6                          admin down     down     OAP
+Gi3/7                          admin down     down     
+Gi3/8                          admin down     down     3COMSentinel 
+Gi3/9                          up             up       SwitchMartis
+Gi3/10                         up             up       TS_IOLAN
+Gi3/11                         admin down     down     Internal ICC Server
+Gi3/12                         admin down     down     
+Gi3/13                         admin down     down     
+Gi3/14                         up             up       SigtranA_sw1_Softswitch
+Gi3/15                         admin down     down     
+Gi3/16                         up             up       Trunk sw1 O&M_Softswitch
+Gi3/17                         admin down     down     ALU_EXTERNAL_GGSN
+Gi3/18                         admin down     down     Billing_server1_Softswitch
+Gi3/19                         up             up       "ICM_Router_222_100"
+Gi3/20                         admin down     down     SSGNortel
+Gi3/21                         admin down     down     ServBilling
+Gi3/22                         down           down     Puerto de Pruebas
+Gi3/23                         down           down     
+Gi3/24                         up             up       MEXCOTLC3750_182_28 AGPS
+Gi3/25                         up             up       SW_RDTA_3750_187_4
+Gi3/26                         up             up       2950ND
+Gi3/27                         admin down     down     
+Gi3/28                         up             up       MNGT_F5_VIPRION_A
+Gi3/29                         up             up       Ceragaon
+Gi3/30                         admin down     down     Server_1
+Gi3/31                         down           down     
+Gi3/32                         admin down     down     "Echo canceller "
+Gi3/33                         up             up       F5_ifun_A
+Gi3/34                         admin down     down     NEW_EIU
+Gi3/35                         admin down     down     R4_MGW_OAM_Sh2_CP3
+Gi3/36                         admin down     down     IHLR-LAB_A_ee0
+Gi3/37                         admin down     down     IHLR-LAB_B_ee0
+Gi3/38                         admin down     down     
+Gi3/39                         admin down     down     
+Gi3/40                         up             up       IGWB 207.09.08.A
+Gi3/41                         admin down     down     MSC3_OAM
+Gi3/42                         down           down     MSC3_OAM
+Gi3/43                         down           down     iGW_DNS_A_mgmt
+Gi3/44                         admin down     down     
+Gi3/45                         up             up       GMSC TLA
+Gi3/46                         admin down     down     BlackBox 0
+Gi3/47                         admin down     down     
+Gi3/48                         admin down     down     
+Gi4/1                          up             up       3524_TLA_182_10
+Gi4/2                          up             up       3524_TLA_182_13
+Gi4/3                          up             up       3524_TLA_183_194
+Gi4/4                          admin down     down     MEXCOTLC3750_182_6
+Gi4/5                          up             up       to_3B
+Gi4/6                          admin down     down     To Switch 3550_TLA_182_17
+Gi4/7                          admin down     down     Switch_ALU_Sala_Arquimides_Conex_Fibra
+Gi4/8                          admin down     down     
+Gi4/9                          admin down     down     
+Gi4/10                         admin down     down     
+Gi4/11                         admin down     down     
+Gi4/12                         admin down     down     
+Gi4/13                         admin down     down     
+Gi4/14                         admin down     down     
+Gi4/15                         admin down     down     
+Gi4/16                         admin down     down     
+Gi5/1                          admin down     down     
+Gi5/2                          admin down     down     
+Gi6/1                          admin down     down     
+Gi6/2                          admin down     down     
+Gi7/1                          admin down     down     R4_NGW_OAM_S2_P2
+Gi7/2                          admin down     down     
+Gi7/3                          admin down     down     R4_Signaling_MG_Sh1_S7_P0 
+Gi7/4                          admin down     down     R4_Signaling_MG_Sh2_S6_P0
+Gi7/5                          admin down     down     R4_NGW_CallIP_S2_P1 
+Gi7/6                          admin down     down     R4_VOIP_Bearer_Sh1_S7_P1
+Gi7/7                          admin down     down     R4_VOIP_Bearer_Sh2_S6_P1
+Gi7/8                          admin down     down     R4_VOIP_Bearer_Sh1_S7_P2
+Gi7/9                          admin down     down     R4_VOIP_Bearer_Sh2_S7_P2
+Gi7/10                         admin down     down     R4_Signaling_MG3_Sh1_S7_P0
+Gi7/11                         admin down     down     R4_VOIP_Bearer_Sh1_S7_P1
+Gi7/12                         admin down     down     R4_VOIP_Bearer_Sh1_S7_P2
+Gi7/13                         admin down     down     
+Gi7/14                         admin down     down     
+Gi7/15                         admin down     down     
+Gi7/16                         admin down     down     
+Gi7/17                         admin down     down     
+Gi7/18                         admin down     down     
+Gi7/19                         admin down     down     
+Gi7/20                         admin down     down     
+Gi7/21                         admin down     down     
+Gi7/22                         admin down     down     
+Gi7/23                         admin down     down     
+Gi7/24                         admin down     down     
+Gi9/1                          down           down     
+Gi9/2                          admin down     down     
+Gi9/3                          down           down     Conexion al iSG1
+Gi9/4                          admin down     down     
+Gi9/5                          admin down     down     
+Gi9/6                          admin down     down     
+Gi9/7                          admin down     down     
+Gi9/8                          up             up       MEXCOTLC2960_253_200_g0/23(JMR)
+Gi9/9                          admin down     down     
+Gi9/10                         admin down     down     
+Gi9/11                         admin down     down     SCOTTY_NEW
+Gi9/12                         admin down     down     Server Envios Masivos
+Gi9/13                         admin down     down     
+Gi9/14                         admin down     down     
+Gi9/15                         down           down     "Acterna SPAN Monitor Session"
+Gi9/16                         admin down     down     
+Gi9/17                         up             up       "CALEA_Router_222_65"
+Gi9/18                         down           down     CX-600-3G-Monitoreo
+Gi9/19                         admin down     down     
+Gi9/20                         admin down     down     
+Gi9/21                         admin down     down     
+Gi9/22                         admin down     down     
+Gi9/23                         admin down     down     
+Gi9/24                         admin down     down     
+Gi9/25                         admin down     down     
+Gi9/26                         admin down     down     
+Gi9/27                         admin down     down     
+Gi9/28                         admin down     down     
+Gi9/29                         admin down     down     ASTELLIA MSO2
+Gi9/30                         admin down     down     
+Gi9/31                         up             up       ALU_RAMSES
+Gi9/32                         admin down     down     
+Gi9/33                         admin down     down     
+Gi9/34                         up             up       Servidor Alcatel
+Gi9/35                         admin down     down     
+Gi9/36                         down           down     2950_NDM
+Gi9/37                         admin down     down     
+Gi9/38                         up             up       TO CAT_A_221_74 nodo_6340_ID_26_slot16
+Gi9/39                         admin down     down     
+Gi9/40                         admin down     down     
+Gi9/41                         admin down     down     ALU FEPs
+Gi9/42                         admin down     down     ALU FEPs
+Gi9/43                         admin down     down     
+Gi9/44                         admin down     down     Acterna Interface de gestion 182.160 PD
+Gi9/45                         down           down     "Temporal ALU_LAB3G"
+Gi9/46                         up             up       "Trunk SWITCH_ALU1"
+Gi9/47                         up             down     "R4 Monitor Session"
+Gi9/48                         admin down     down     Acterna Interface de gestion 182.39 MSO
+Lo11                           up             up       
+Lo12                           up             up       
+Lo13                           up             up       
+Lo14                           up             up       
+Po1                            up             up       
+Po2                            down           down     
+Po3                            down           down     ALU_EXTERNAL_GGSN 
+Vl1                            admin down     down     
+Vl50                           up             up       iHLR
+Vl52                           up             up       iHLR2 
+Vl60                           up             up       OMC_MEXICO
+Vl61                           up             up       OMC-R 1.0
+Vl63                           up             up       NGMS PTP
+Vl64                           up             up       Calea XCPIO
+Vl65                           up             up       Calea Dispatch iSG 0
+Vl66                           up             up       Calea Dispatch iSG 1
+Vl67                           up             up       Provisioning Server MSO
+Vl69                           up             up       BlackBox
+Vl74                           up             up       MiniOMC E0 Switch
+Vl86                           up             up       Red FRU
+Vl101                          up             up       DCN Oscar Zuniga
+Vl102                          up             up       DCN Guadalajara
+Vl103                          up             up       DCN Monterrey
+Vl104                          up             up       DCN Reynosa
+Vl110                          up             up       DCN Ceragon
+Vl117                          up             up       PASSPORT8600-0
+Vl118                          up             up       PASSPORT8600-1
+Vl119                          up             up       PASSPORT-MGMNT
+Vl120                          up             up       EUI MSC5
+Vl126                          up             up       MSC3_OAM
+Vl127                          up             up       CBM_MSC3_A 
+Vl128                          up             up       CBM_MSC3_B 
+Vl129                          up             up       MSC3_CO
+Vl187                          up             up       Sincronia y EcoCanceladores
+Vl188                          up             up       OSPF Interoperability 2G-3G
+Vl202                          up             up       TO_PDFW_private
+Vl580                          up             up       JUNIPER M7i TLA_A
+Vl600                          up             up       DCN GESTION
+Vl601                          up             up       DCN Aguascalientes
+Vl603                          up             up       DCN BCS
+Vl604                          up             up       DCN Campeche
+Vl606                          up             up       DCN CD_Juarez
+Vl607                          up             up       DCN Torreon
+Vl608                          up             up       DCN Colima
+Vl610                          up             up       DCN Durango
+Vl611                          up             up       DCN EDOMEX
+Vl612                          up             up       DCN Guanajuato
+Vl614                          up             up       DCN Hidalgo
+Vl615                          up             up       DCN GDL via ESU
+Vl616                          up             up       DCN Michoacan
+Vl617                          up             up       DCN Morelos
+Vl619                          up             up       DCN Nvo Leon
+Vl623                          up             up       DCN Cancun
+Vl624                          up             up       DCN SLP
+Vl625                          up             up       DCN Sinaloa
+Vl626                          up             up       DCN Sonora
+Vl627                          up             up       DCN Tabasco
+Vl628                          up             up       DCN Reynosa
+Vl630                          up             up       DCN Jalapa
+Vl631                          up             up       DCN Merida
+Vl632                          up             up       DCN Zacatecas
+Vl633                          up             up       DCN GESTION_2
+Vl635                          up             up       MAILNEXTEL_MGMT
+Vl640                          up             up       DCN EDOMEX_2
+Vl696                          up             up       SigtranB_Softswitch
+Vl697                          up             up       SigtranA_Softswitch
+Vl698                          up             up       Billing_Softswitch
+Vl699                          up             up       Temporal_CGC_RFN
+Vl825                          up             up       MGMT_Tlal_Port
+Vl831                          up             up       
+Vl861                          up             up       R4 VSE NGW OAM
+Vl862                          up             up       R4 VSE NGW OAM
+Vl863                          up             up       R4_Signaling_MG_Sh1_S7_P0
+Vl866                          up             up       R4_Signaling_MG_Sh2_S6_P0
+Vl867                          up             up       R4 VSE NGW CallP Port 
+Vl870                          up             up       R4 W-NMS OAM-OAM 
+Vl871                          up             up       R4 W-NMS  B&R 
+Vl872                          up             up       R4 W-NMS  OAM-NE
+Vl873                          up             up       R4_Signaling_MG3_Sh1_S7_P0
+Vl876                          up             up       ATS_SS7_Gtw0
+Vl877                          up             up       ATS_SS7_Gtw1
+Vl881                          up             up       R4_VOIP_Bearer_Sh1_S7_P1
+Vl884                          up             up       R4_VOIP_Bearer_Sh2_S6_P1
+Vl885                          up             up       IP MGMT-PORTABILITY
+Vl886                          up             up       R4_VOIP_Bearer_MG3_Sh1_S7_P1_P2
+Vl890                          up             up       R4_Backbone
+Vl891                          up             up       IP INTERNAL-PORTABILITY
+Vl901                          up             up       ALU O&M Support
+Vl902                          up             up       ALU SM01 TestBed
+Vl903                          up             up       ALU SM01 TestBed
+Vl904                          up             up       ALU ICC TestBed
+Vl905                          up             up       ALU O&M TestBed
+Vl911                          up             up       ASTELLIA MSO2
+Vl918                          up             up       STPA_Port_Tlal
+Vl921                          up             up       STPB_Port_Tlal
+Vl924                          up             up       SigtranA_Tlal_Port
+Vl925                          up             up       SigtranB_Tlal_Port
+Vl928                          up             up       STP2_Tlal
+Vl929                          up             up       STP2B_Tlal
+Vl930                          up             up       ALU_OAMSOL
+Vl931                          up             up       ALU_A1ICC-SRP
+Vl932                          up             up       ALU_A2ICC-SRP
+Vl933                          up             up       ALU_A1WCS
+Vl934                          up             up       ALU_A2WCS
+Vl943                          up             up       SENTINEL
+Vl946                          up             up       ORYX, CAT4006MSO, 142CAT1900
+Vl947                          up             up       RADIOS_WIRELESS_NOC
+Vl948                          up             up       Tellabs TEST
+Vl952                          up             up       Red Eventual de MONITOREO y Edificio B
+Vl960                          up             up       OPERACIONES 
+Vl961                          up             up       RED NMS MSO
+Vl962                          up             up       TELLABS, MARTIS, VERITY 3100
+Vl963                          up             up       3rd_A_inside
+Vl965                          up             up       PRUEBAS
+Vl967                          up             up       EIU HLRG
+Vl968                          up             up       ALU_SMAdmin
+Vl969                          up             up       ALU_SMIntranet
+Vl975                          up             up       iHLR ee0 interface
+Vl976                          up             up       iHLR ee2 interface
+Vl981                          up             up       IP SIGTRAN_A-PORTABILITY
+Vl982                          up             up       IP SIGTRAN_B-PORTABILITY
+Vl990                          up             up       iHLR ee2 interface
+Vl995                          up             up       M2PA MOP
+Vl996                          up             up       traps_caps
+Vl1000                         up             up       DCN Guadalajara_2

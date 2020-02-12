@@ -1,0 +1,83 @@
+Interface                      Status         Protocol Description
+Fa1                            down           down     
+Gi1/1                          up             up       F5-SEC-PORT1.1
+Gi1/2                          down           down     ENLACE F5 ServiceSegment 511
+Gi1/3                          up             up       F5-SEC-PORT1.2
+Gi1/4                          down           down     ASA PRIMARY gi0/2
+Gi1/5                          up             up       INT_TELMEX_100MB_FTX1539AJJX
+Gi1/6                          up             up       INT_TELMEX_50MB_FTX1529AHNR
+Gi1/7                          up             up       LINK TO OUTSIDE INTERNET
+Gi1/8                          down           down     ASA SECUNDARY gi0/2
+Gi1/9                          up             up       F5-Sec-Port2/1
+Gi1/10                         down           down     
+Gi1/11                         down           down     ASA SECUNDARY gi0/0
+Gi1/12                         up             up       F5-Port2/1
+Gi1/13                         down           down     Banxico
+Gi1/14                         down           down     
+Gi1/15                         down           down     VPN_BANXICO_PTO16_FORTI
+Gi1/16                         down           down     "DMZ-2-BLADE CENTER"
+Gi1/17                         down           down     SIP-ALESTRA
+Gi1/18                         up             down     P_MIRROR_RSA_B2B
+Gi1/19                         up             up       F5_port1/1
+Gi1/20                         down           down     ASA PRIMARY gi0/0
+Gi1/21                         down           down     WAF
+Gi1/22                         down           down     WAF
+Gi1/23                         up             up       PC to PALO_ALTO iDMZ P1/9
+Gi1/24                         up             up       PC to PALO_ALTO iDMZ P1/10
+Gi1/25                         up             up       "TO_6500_CORE"
+Gi1/26                         up             up       "TO_6500_CORE"
+Gi1/27                         down           down     
+Gi1/28                         up             up       F5_port1/2
+Gi1/29                         up             up       PC to PALO_ALTO INSIDE P1/1
+Gi1/30                         up             up       PC to PALO_ALTO INSIDE P1/2
+Gi1/31                         up             down     PC to PALO_ALTO INSIDE S1/1
+Gi1/32                         up             down     PC to PALO_ALTO INSIDE S1/2
+Gi1/33                         up             up       PC to PALO_ALTO OUTSIDE P1/3
+Gi1/34                         up             up       PC to PALO_ALTO OUTSIDE P1/4
+Gi1/35                         up             down     PC to PALO_ALTO OUTSIDE S1/3
+Gi1/36                         up             down     PC to PALO_ALTO OUTSIDE S1/4
+Gi1/37                         up             down     PC to PALO_ALTO iDMZ S1/9
+Gi1/38                         up             down     PC to PALO_ALTO iDMZ S1/10
+Gi1/39                         down           down     PORT-CHANNEL to CHECKPOINT DMZ ETH5-CHK1
+Gi1/40                         down           down     "BS1-SW1"
+Gi1/41                         up             up       PC to PALO_ALTO eDMZ P1/11
+Gi1/42                         up             up       PC to PALO_ALTO eDMZ P1/12
+Gi1/43                         down           down     INT_TELMEX_100MB_FORTI1/17
+Gi1/44                         down           down     INT_TELMEX_50MB_FORTI1/18
+Gi1/45                         up             down     PC to PALO_ALTO eDMZ S1/11
+Gi1/46                         up             down     PC to PALO_ALTO eDMZ S1/12
+Gi1/47                         up             up       TO-PA3020-ZAM
+Gi1/48                         up             up       TO-PA3020-ZAM
+Te3/1                          down           down     
+Te3/2                          down           down     F5-Sec-Port2/1
+Gi3/3                          down           down     
+Gi3/4                          down           down     
+Gi3/5                          down           down     
+Gi3/6                          down           down     
+Te4/1                          up             up       F5-Sec-Port2/1 Pendiente por SFP
+Te4/2                          down           down     
+Gi4/3                          down           down     
+Gi4/4                          down           down     
+Gi4/5                          down           down     
+Gi4/6                          down           down     
+Po1                            down           down     "DMZ"
+Po2                            up             up       "DMZ-2-FLEX"
+Po3                            down           down     PORT-CHANNEL to CHECKPOINT DMZ
+Po4                            down           down     PORT-CHANNEL to CHECKPOINT 2 DMZ
+Po5                            down           down     
+Po6                            up             up       "TO_6500_CORE"
+Po7                            up             up       PORT-CHANNEL PALO_ALTO INSIDE
+Po8                            up             up       PORT-CHANNEL PALO_ALTO OUTSIDE
+Po9                            up             up       PORT-CHANNEL PALO_ALTO iDMZ 
+Po10                           up             up       PORT-CHANNEL PALO_ALTO eDMZ
+Vl1                            down           down     
+Vl40                           up             up       
+Vl70                           up             up       
+Vl80                           up             up       
+Vl100                          up             up       
+Vl368                          admin down     down     
+Vl398                          up             up       
+Vl400                          up             up       MGT_LAN
+Vl468                          up             up       
+Vl504                          admin down     down     
+Vl511                          up             up
