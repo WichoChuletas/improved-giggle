@@ -1,6 +1,6 @@
 import pandas as pd
-from progress.bar import Bar, ChargingBar
 import json
+from progress.bar import Bar, ChargingBar
 
 def show_desc(file_conf):
     headers = []
@@ -8,6 +8,7 @@ def show_desc(file_conf):
     countDataNotFound =0
     interface = ""
     description = ""
+
     with open(file_conf) as file:
         lines = file.readlines()
         progress = Bar('Reading INTERFACE DESCRIPTION TABLE', max=len(lines))
@@ -33,10 +34,9 @@ def show_desc(file_conf):
                     "Interface": interface,
                     "Description": description
                 })
-    
+
             progress.next()
-        progress.finish()
-    #print(json.dumps(data, indent=4))
+    progress.finish()
     print("Creating CSV File")
     csv_show_desc = pd.DataFrame(data, columns=[headers[0], headers[3]])
     print("Ready!")
@@ -62,62 +62,33 @@ def show_mc_tb(file_conf):
             if i == 0:
                 headers.extend(lines[i].split())
             else:
-                aux = lines[i].split(maxsplit=7)
-                if len(aux) == 7:
-                    try:
-                        vlan = aux[1]
-                    except:
-                        countDataNotFound = countDataNotFound + 1
-                        vlan = None
-                    
-                    try:
-                        mac_address = aux[2]
-                    except:
-                        countDataNotFound = countDataNotFound + 1
-                        mac_address = None
+                aux = lines[i].split(maxsplit=4)
+                try:
+                    vlan = aux[1]
+                except:
+                    countDataNotFound = countDataNotFound + 1
+                    vlan = None
+                
+                try:
+                    mac_address = aux[2]
+                except:
+                    countDataNotFound = countDataNotFound + 1
+                    mac_address = None
 
-                    try:
-                        interface = aux[6].replace("\n", "")
-                    except:
-                        countDataNotFound = countDataNotFound + 1
-                        interface = None
+                try:
+                    interface = aux[6].replace("\n", "")
+                except:
+                    countDataNotFound = countDataNotFound + 1
+                    interface = None
 
-                    data.append({
-                        "vlan": vlan,
-                        "mac address": mac_address,
-                        "interface_mac_table": interface,
-                        "address": " ",
-                        "description": " ",
-                        "interface": " "
-                    })           
-                else:
-                    try:
-                        vlan = aux[0]
-                    except:
-                        countDataNotFound = countDataNotFound + 1
-                        vlan = None
-                    
-                    try:
-                        mac_address = aux[1]
-                    except:
-                        countDataNotFound = countDataNotFound + 1
-                        mac_address = None
-
-                    try:
-                        interface = aux[5].replace("\n", "")
-                    except:
-                        countDataNotFound = countDataNotFound + 1
-                        interface = None
-
-                    data.append({
-                        "vlan": vlan,
-                        "mac address": mac_address,
-                        "interface_mac_table": interface,
-                        "address": " ",
-                        "description": " ",
-                        "interface": " "
-                    })
-                    
+                data.append({
+                    "vlan": vlan,
+                    "mac address": mac_address,
+                    "interface_mac_table": interface,
+                    "address": " ",
+                    "description": " ",
+                    "interface": " "
+                })
                 progress.next()
         progress.finish()
     #print(json.dumps(data, indent=4))
@@ -141,8 +112,9 @@ def show_arp(file_conf):
         lines = file.readlines()
         progress = Bar('Reading ARP TABLE', max=len(lines))
         for i in range(len(lines)):
-            aux = lines[i].split(maxsplit=6)
-            #print(len(aux))
+            aux = lines[i].split(maxsplit=5)
+
+
             if aux[1] != "Address":
 
                 try:
@@ -168,9 +140,9 @@ def show_arp(file_conf):
                     "mac address": mac_address,
                     "interface": interface
                 })
+
             progress.next()
-        progress.finish()
-    #print(json.dumps(data, indent=4))
+    progress.finish()
     print("Creating CSV File")
     csv_show_arp = pd.DataFrame(data, columns=["Address", "mac address", "interface"])
     print("Ready!")
@@ -191,12 +163,9 @@ def removeDup(objects_list):
     return new_l
 
 def build_table():
-    show_mc = open_csv(r"output\\show_mc_add.csv", )
+    show_mc = open_csv("output\show_mc_add.csv")
     limit = show_mc["mac address"].count()
-
-    
     progress = Bar('Searching IP Address', max=(limit))
-    
     for i in range(0, limit):
         show_mc.iloc[i]["address"] = search_ip(show_mc.iloc[i]["mac address"])
         progress.next()
@@ -214,7 +183,7 @@ def build_table():
     return show_mc
 
 def search_ip(mac_address):
-    show_arp = open_csv(r"output\\show_arp.csv")
+    show_arp = open_csv("output\show_arp.csv")
     limit = show_arp["Address"].count()
     ip = []
     for i in range(0, limit):
@@ -222,9 +191,8 @@ def search_ip(mac_address):
             ip.append(show_arp.iloc[i]["Address"])
     return concat_list(ip)
 
-
 def search_int(mac_address):
-    show_arp = open_csv(r"output\\show_arp.csv")
+    show_arp = open_csv("output\show_arp.csv")
     limit = show_arp["mac address"].count()
     interface = []
     for i in range(0, limit):
@@ -233,18 +201,18 @@ def search_int(mac_address):
     return concat_list(interface)
 
 def search_desc(interface):
-    show_desc = open_csv(r"output\\show_ip_int_desc.csv")
+    show_desc = open_csv("output\show_ip_int_desc.csv")
     limit = show_desc["Interface"].count()
     desc = ""
     for i in range(0, limit):
 
-        if str(str(interface).replace("gabitEthernet", "").replace("rt-channel", "").replace("an", "")).strip() == str(show_desc.iloc[i]["Interface"]).strip():
+        if str(str(interface).replace("gabitEthernet", "").replace("rt-channel", "")).strip() == str(show_desc.iloc[i]["Interface"]).strip():
             desc = show_desc.iloc[i]["Description"]
             #print(show_desc.iloc[i]["Description"])
             #input()
-
     return desc
     
+
 def open_csv(file_csv):
     return pd.read_csv(file_csv)
 

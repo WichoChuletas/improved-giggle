@@ -1,72 +1,939 @@
-﻿ vlan   mac address     type        protocols               port
--------+---------------+--------+---------------------+--------------------
-  40    000b.abab.174a   dynamic ip,ipx,assigned,other Port-channel6         
-  40    000b.abab.1a98   dynamic ip,ipx,assigned,other Port-channel6         
-  40    0050.569f.2b88   dynamic ip,ipx,assigned,other Port-channel2         
-  40    0050.569f.2cae   dynamic ip,ipx,assigned,other Port-channel2         
-  40    0050.569f.432f   dynamic ip,ipx,assigned,other Port-channel2         
-  40    0050.569f.44b7   dynamic ip,ipx,assigned,other Port-channel2         
-  40    0050.569f.5471   dynamic ip,ipx,assigned,other Port-channel2         
-  40    0050.569f.56c6   dynamic ip,ipx,assigned,other Port-channel2         
-  40    0050.569f.5dba   dynamic ip,ipx,assigned,other Port-channel2         
-  40    0050.569f.6c75   dynamic ip,ipx,assigned,other Port-channel2         
-  40    64a0.e7b3.d800   dynamic ip,ipx,assigned,other Port-channel6         
-  40    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
-  40    b40c.25e1.0010   dynamic ip,ipx,assigned,other Port-channel6         
-  40    f415.6365.4209   dynamic ip,ipx,assigned,other GigabitEthernet1/19   
-  40    f415.6366.4209   dynamic ip,ipx,assigned,other GigabitEthernet1/1    
-  50    001b.1700.0330   dynamic ip,ipx,assigned,other Port-channel7         
-  50    b40c.25e1.0010   dynamic ip,ipx,assigned,other Port-channel6         
-  60    001b.1700.0231   dynamic ip,ipx,assigned,other Port-channel6         
-  60    001b.1700.0331   dynamic ip,ipx,assigned,other Port-channel8         
-  60    0062.ecb5.7b81   dynamic ip,ipx,assigned,other GigabitEthernet1/7    
-  70    001b.1700.0330   dynamic ip,ipx,assigned,other Port-channel7         
-  70    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
-  80    001b.1700.0330   dynamic ip,ipx,assigned,other Port-channel7         
-  80    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
- 100    001b.1700.0330   dynamic ip,ipx,assigned,other Port-channel7         
- 100    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
- 398    001b.1700.0333   dynamic ip,ipx,assigned,other Port-channel10        
- 398    0050.569f.022d   dynamic ip,ipx,assigned,other Port-channel2         
- 398    0050.569f.18e0   dynamic ip,ipx,assigned,other Port-channel2         
- 398    0050.569f.2045   dynamic ip,ipx,assigned,other Port-channel2         
- 398    0050.569f.33f3   dynamic ip,ipx,assigned,other Port-channel2         
- 398    0050.569f.44e2   dynamic ip,ipx,assigned,other Port-channel2         
- 398    0050.569f.5a8c   dynamic ip,ipx,assigned,other Port-channel2         
- 398    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
- 398    f415.6365.4208   dynamic ip,ipx,assigned,other GigabitEthernet1/28   
- 398    f415.6366.4208   dynamic ip,ipx,assigned,other GigabitEthernet1/3    
- 400    64a0.e7b3.d800   dynamic ip,ipx,assigned,other Port-channel6         
- 400    7499.75e4.6100   dynamic ip,ipx,assigned,other Port-channel6         
- 400    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
- 400    b40c.25e1.0011   dynamic ip,ipx,assigned,other Port-channel6         
- 468    001b.1700.0332   dynamic ip,ipx,assigned,other Port-channel9         
- 468    0050.569f.2b01   dynamic ip,ipx,assigned,other Port-channel2         
- 468    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
- 511    0050.569f.05f5   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.1d7f   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.2a4b   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.2b60   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.37e4   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.3a3d   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.4785   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.53cd   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.6edc   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.7749   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.7a6a   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.7d2b   dynamic ip,ipx,assigned,other Port-channel2         
- 511    0050.569f.7f31   dynamic ip,ipx,assigned,other Port-channel2         
- 511    78da.6e62.ecff    static ip,ipx,assigned,other Switch                
- 511    b40c.25e1.0010   dynamic ip,ipx,assigned,other Port-channel6         
- 511    f415.6365.4205   dynamic ip,ipx,assigned,other GigabitEthernet1/12   
- 511    f415.6366.4205   dynamic ip,ipx,assigned,other GigabitEthernet1/9    
- 802    001b.1700.0130   dynamic ip,ipx,assigned,other GigabitEthernet1/47   
- 802    0062.ecb5.7b81   dynamic ip,ipx,assigned,other GigabitEthernet1/7    
- 803    0000.0c07.ac01   dynamic ip,ipx,assigned,other GigabitEthernet1/5    
- 803    0000.0c07.ac02   dynamic ip,ipx,assigned,other GigabitEthernet1/5    
- 803    001b.1700.0231   dynamic ip,ipx,assigned,other Port-channel6         
- 803    001b.1700.0331   dynamic ip,ipx,assigned,other Port-channel8         
- 803    0896.ada7.c850   dynamic ip,ipx,assigned,other GigabitEthernet1/6    
- 803    0896.ada7.cbd0   dynamic ip,ipx,assigned,other GigabitEthernet1/5    
- 883    0000.0000.0010   dynamic ip,ipx,assigned,other Port-channel6         
-Gi1/15  78da.6e62.ecff    static ip,ipx,assigned,other Switch                
+     vlan   mac address    type   learn    age                 ports
+----+----+---------------+-------+-----+----------+-----------------------------
+      504 0050.569f.7353  dynamic  Yes      160     Po18
+      506 0050.569f.7bb9  dynamic  Yes      285     Po18
+      504 3440.b5a7.0717  dynamic  Yes      110     Po3
+      510 0050.569f.2e64  dynamic  Yes      160     Po18
+      506 0050.569f.2eb4  dynamic  Yes      160     Po18
+      508 0050.569f.2686  dynamic  Yes      160     Po18
+      504 0050.569f.624b  dynamic  Yes      115     Po18
+      510 0050.569f.4842  dynamic  Yes       15     Po18
+      514 0050.569f.2703  dynamic  Yes      105     Po18
+  R   509 64a0.e7b3.d800   static   No       -      Router
+      511 0050.569f.7f31  dynamic  Yes        0     Po33
+      504 50eb.1ab5.1658  dynamic  Yes       20     Po3
+      514 0050.569f.6300  dynamic  Yes      160     Po18
+      507 0050.569f.5dfe  dynamic  Yes      160     Po18
+  R   523 64a0.e7b3.d800   static   No       -      Router
+      884 b40c.25e1.0011  dynamic  Yes        0     Po12
+      508 0050.569f.26d1  dynamic  Yes        5     Po18
+      510 0050.569f.6a22  dynamic  Yes       25     Po18
+      511 0050.569f.2a4b  dynamic  Yes        0     Po33
+  R     4 64a0.e7b3.d800   static   No       -      Router
+      508 0050.569f.37cf  dynamic  Yes      160     Po18
+      506 0050.569f.59e9  dynamic  Yes      160     Po18
+      911 001b.1700.0131  dynamic  Yes        0     Po37
+      510 0050.569f.5904  dynamic  Yes       80     Po18
+      504 6cae.8b2f.0d90  dynamic  Yes       10     Po18
+       40 0050.569f.432f  dynamic  Yes        0     Po33
+      508 0050.569f.73fd  dynamic  Yes      290     Po18
+      468 b40c.25e1.0010  dynamic  Yes       35     Po10
+      400 78da.6e62.ecff  dynamic  Yes      160     Po33
+      503 0050.569f.3a27  dynamic  Yes       30     Po18
+      202 0050.569f.1e0a  dynamic  Yes        0     Po18
+      504 6805.ca19.5d90  dynamic  Yes        5     Gi1/4/35
+      507 0050.569f.6e55  dynamic  Yes      160     Po18
+      303 001b.1700.0132  dynamic  Yes      160     Po35
+        2 0050.569f.082c  dynamic  Yes      160     Po18
+  R   580 64a0.e7b3.d800   static   No       -      Router
+      504 6cae.8b2a.2bf1  dynamic  Yes      160     Po18
+      510 0050.569f.48de  dynamic  Yes      205     Po18
+      508 0050.569f.2627  dynamic  Yes      160     Po18
+      800 000b.abab.1a9b  dynamic  Yes      160     Po3
+      201 0050.569f.47ce  dynamic  Yes      160     Po18
+      510 0050.569f.6aa5  dynamic  Yes      160     Po18
+      508 0050.569f.155c  dynamic  Yes      160     Po18
+      511 0050.569f.6edc  dynamic  Yes        5     Po33
+      510 0050.569f.3fad  dynamic  Yes       15     Po18
+      504 6805.ca14.e9e9  dynamic  Yes       25     Gi1/4/39
+      506 0050.569f.1d7d  dynamic  Yes      115     Po18
+      504 f415.6365.4201  dynamic  Yes      160     Gi2/3/11
+      145 0050.569f.0c7a  dynamic  Yes      160     Po18
+  R   505 64a0.e7b3.d800   static   No       -      Router
+      504 6cae.8b2e.9541  dynamic  Yes      115     Po3
+      911 0050.56bf.22f8  dynamic  Yes      150     Po39
+      510 0050.569f.2f65  dynamic  Yes       85     Po18
+        2 000e.b6bc.8e14  dynamic  Yes        0     Gi1/3/25
+      506 0050.569f.7aa4  dynamic  Yes      160     Po18
+      510 0050.569f.7a6f  dynamic  Yes      160     Po18
+      508 0050.569f.2795  dynamic  Yes      160     Po18
+        2 0050.569f.6fa5  dynamic  Yes      175     Po18
+      506 0050.569f.7ab5  dynamic  Yes      115     Po18
+      400 240b.0a01.b576  dynamic  Yes        0     Gi1/3/22
+      504 0050.569f.506e  dynamic  Yes       45     Po18
+  R     8 64a0.e7b3.d800   static   No       -      Router
+      511 0050.569f.3a3d  dynamic  Yes        0     Po33
+      508 0050.569f.14b1  dynamic  Yes        0     Po18
+      514 0050.569f.511b  dynamic  Yes      160     Po18
+       80 001b.1700.0330  dynamic  Yes       50     Po40
+      506 0050.569f.6b92  dynamic  Yes      160     Po18
+      510 0050.569f.1c28  dynamic  Yes      310     Po18
+      510 0050.569f.492b  dynamic  Yes       15     Po18
+      514 0050.569f.0463  dynamic  Yes        5     Po18
+      510 000b.abab.1a9a  dynamic  Yes        0     Po3
+      510 0050.569f.7a19  dynamic  Yes        0     Po18
+      514 0050.569f.045a  dynamic  Yes      160     Po18
+  R   949 64a0.e7b3.d800   static   No       -      Router
+      507 0050.569f.6fad  dynamic  Yes      160     Po18
+      511 0050.569f.2b60  dynamic  Yes       15     Po33
+      504 0050.569f.723e  dynamic  Yes        0     Po18
+      202 0050.569f.5bf2  dynamic  Yes        0     Po18
+      504 0050.569f.723b  dynamic  Yes      160     Po18
+      507 0050.569f.6f51  dynamic  Yes      160     Po18
+      514 0050.569f.73a5  dynamic  Yes       15     Po18
+      514 0050.569f.37ba  dynamic  Yes      160     Po18
+      504 3440.b5bf.c771  dynamic  Yes      115     Po3
+  R   515 64a0.e7b3.d800   static   No       -      Router
+  R   300 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.3ee7  dynamic  Yes      150     Po18
+      514 0050.569f.15a5  dynamic  Yes      160     Po18
+      506 0050.569f.493e  dynamic  Yes      285     Po18
+      504 0050.5664.d237  dynamic  Yes      160     Po18
+      504 000e.1116.1c11  dynamic  Yes       85     Po3
+      508 0050.569f.633b  dynamic  Yes      160     Po18
+      504 74fe.4808.f1e1  dynamic  Yes      120     Po3
+      202 0050.569f.5b3b  dynamic  Yes        0     Po18
+      510 0050.569f.3ed6  dynamic  Yes       50     Po18
+      510 0050.569f.1cab  dynamic  Yes        0     Po18
+  R   584 64a0.e7b3.d800   static   No       -      Router
+      508 0050.569f.3654  dynamic  Yes      160     Po18
+      551 0050.56bf.0a12  dynamic  Yes      160     Po39
+      504 6cae.8b2b.7ef9  dynamic  Yes      160     Po3
+      701 0050.56bf.1ae0  dynamic  Yes      160     Po39
+      510 0050.569f.1c82  dynamic  Yes        0     Po18
+      204 0000.0c07.ac01  dynamic  Yes      160     Gi1/4/18
+      507 0050.569f.3a2a  dynamic  Yes       25     Po18
+      504 6cae.8b2d.d3c0  dynamic  Yes      160     Po18
+      401 0050.56bf.1648  dynamic  Yes      230     Po39
+      506 0050.569f.2f54  dynamic  Yes      160     Po18
+      401 0050.56bf.705d  dynamic  Yes      160     Po39
+      504 74fe.4808.b5be  dynamic  Yes       25     Po3
+      506 0050.569f.2f49  dynamic  Yes      160     Po18
+      504 3440.b5a7.06e7  dynamic  Yes      110     Po3
+  R   558 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.3d5c  dynamic  Yes        0     Po18
+      503 0050.569f.4f8c  dynamic  Yes      135     Po18
+      650 001b.1700.0131  dynamic  Yes        0     Po37
+      507 0050.569f.1be1  dynamic  Yes      160     Po18
+      506 0050.569f.1f97  dynamic  Yes      160     Po18
+      584 0009.0f09.0004  dynamic  Yes       25     Gi1/4/23
+      504 6cae.8b2d.7a08  dynamic  Yes      160     Po18
+      202 0050.569f.1c88  dynamic  Yes        0     Po18
+      601 0050.56bf.5dd4  dynamic  Yes      160     Po39
+      504 6cae.8b2e.3d91  dynamic  Yes      160     Po3
+      507 0050.569f.0ab2  dynamic  Yes        0     Po18
+      510 0050.569f.681d  dynamic  Yes        5     Po18
+      510 0050.569f.681c  dynamic  Yes       75     Po18
+      510 0050.569f.3d01  dynamic  Yes      160     Po18
+      504 6cae.8b2e.79e5  dynamic  Yes      160     Po3
+      510 0050.569f.2c0d  dynamic  Yes      160     Po18
+      504 0050.569f.531c  dynamic  Yes      160     Po18
+      504 0050.569f.0614  dynamic  Yes      160     Po18
+      911 1c98.ec23.2166  dynamic  Yes      160     Po39
+      504 0050.569f.061c  dynamic  Yes      160     Po18
+      507 0050.569f.0a82  dynamic  Yes      160     Po18
+      911 1c98.ec23.216e  dynamic  Yes      160     Po39
+      504 6cae.8b2e.3d2d  dynamic  Yes      115     Po3
+      503 0050.569f.7c1c  dynamic  Yes      175     Po18
+      514 0050.569f.619c  dynamic  Yes      160     Po18
+      410 0050.56bf.6f21  dynamic  Yes      160     Po39
+      507 e200.09d4.da03  dynamic  Yes        0     Po400
+      549 001b.1700.0131  dynamic  Yes        0     Po37
+      504 40f2.e96c.69dc  dynamic  Yes       90     Po3
+      160 0050.569f.4b8a  dynamic  Yes      160     Po18
+      506 0050.569f.0e3d  dynamic  Yes      160     Po18
+      508 0050.569f.3509  dynamic  Yes       85     Po18
+      506 0050.569f.1f3e  dynamic  Yes      285     Po18
+      504 e200.0094.9002  dynamic  Yes       20     Po3
+        2 0050.569f.7d45  dynamic  Yes      160     Po18
+      506 0050.569f.795d  dynamic  Yes      160     Po18
+        2 90e2.ba04.c510  dynamic  Yes        0     Po3
+      551 0050.56bf.6f06  dynamic  Yes      155     Po39
+      160 0050.569f.3cc6  dynamic  Yes      160     Po18
+      514 0050.569f.43f4  dynamic  Yes      160     Po18
+      911 1c98.ec23.21e8  dynamic  Yes      160     Po39
+      504 6cae.8b2d.7ad0  dynamic  Yes      160     Po18
+      506 0050.569f.3c9d  dynamic  Yes        0     Po18
+        2 0050.569f.5e9d  dynamic  Yes      200     Po18
+      501 0050.56bf.2c95  dynamic  Yes      160     Po39
+      202 0050.569f.7bb3  dynamic  Yes      160     Po18
+      510 0050.569f.4b4a  dynamic  Yes        0     Po18
+      508 0050.569f.439e  dynamic  Yes      160     Po18
+      503 0050.569f.6ca6  dynamic  Yes      155     Po18
+      510 0050.569f.7874  dynamic  Yes      160     Po18
+      202 0050.569f.1d86  dynamic  Yes      160     Po18
+  R   205 64a0.e7b3.d800   static   No       -      Router
+      507 0050.569f.4fce  dynamic  Yes      160     Po18
+       23 501c.b02d.cb01  dynamic  Yes       50     Gi1/3/39
+      510 0050.569f.2d7b  dynamic  Yes      160     Po18
+      202 0050.569f.2e80  dynamic  Yes      160     Po18
+      510 0050.569f.1e09  dynamic  Yes      160     Po18
+      504 f415.6366.4201  dynamic  Yes      160     Gi2/3/12
+      506 0050.569f.5ad0  dynamic  Yes      160     Po18
+      507 0050.569f.6daf  dynamic  Yes      160     Po18
+      510 0050.569f.6907  dynamic  Yes      255     Po18
+      503 0050.569f.0ac9  dynamic  Yes      160     Po18
+      504 3440.b5bf.c585  dynamic  Yes       50     Po3
+      506 0050.569f.0ff9  dynamic  Yes      160     Po18
+      506 0050.569f.0fe9  dynamic  Yes      160     Po18
+      398 0050.569f.61bc  dynamic  Yes        0     Po33
+      202 0050.569f.6add  dynamic  Yes      160     Po18
+      514 0050.569f.3569  dynamic  Yes      160     Po18
+  R   468 64a0.e7b3.d800   static   No       -      Router
+      504 0050.569f.07fe  dynamic  Yes      160     Po18
+      508 0050.569f.703a  dynamic  Yes      160     Po18
+  R   304 64a0.e7b3.d800   static   No       -      Router
+      506 0050.569f.4b04  dynamic  Yes      160     Po18
+      508 f415.6366.4207  dynamic  Yes      160     Gi2/3/45
+      514 0050.569f.4290  dynamic  Yes      160     Po18
+      514 0050.569f.5396  dynamic  Yes      160     Po18
+      514 0050.569f.35a0  dynamic  Yes      160     Po18
+      202 0050.569f.0c7f  dynamic  Yes      160     Po18
+  R    41 64a0.e7b3.d800   static   No       -      Router
+      509 b40c.25e1.0011  dynamic  Yes       35     Po12
+       40 f415.6365.4209  dynamic  Yes        0     Gi1/3/38
+      514 0050.569f.71e0  dynamic  Yes      305     Po18
+  R   201 64a0.e7b3.d800   static   No       -      Router
+      398 f415.6366.4208  dynamic  Yes        0     Gi1/3/27
+      507 0050.569f.6d05  dynamic  Yes      170     Po18
+      507 0050.569f.4f04  dynamic  Yes      135     Po18
+      508 0050.569f.255e  dynamic  Yes      160     Po18
+      505 0050.569f.2676  dynamic  Yes      160     Po18
+      504 0027.f841.2b7a  dynamic  Yes       35     Po3
+      506 0050.569f.4ce2  dynamic  Yes      160     Po18
+  R   508 64a0.e7b3.d800   static   No       -      Router
+      701 0050.56bf.1f40  dynamic  Yes      160     Po39
+      202 0050.569f.5ef1  dynamic  Yes        0     Po18
+      507 0050.569f.2ea7  dynamic  Yes      160     Po18
+      508 0050.569f.00e0  dynamic  Yes      160     Po18
+  R  N/A  64a0.e7b3.d800   static   No       -      Router
+      911 0050.5661.1603  dynamic  Yes      160     Po39
+      511 0050.569f.1d7f  dynamic  Yes        0     Po33
+      510 0050.569f.6e10  dynamic  Yes      160     Po18
+      506 0050.569f.5db0  dynamic  Yes      160     Po18
+      202 0050.569f.3880  dynamic  Yes        0     Po18
+      398 0050.569f.33f3  dynamic  Yes      160     Po33
+      504 6cae.8b2e.3b95  dynamic  Yes      160     Po3
+      398 0050.569f.44e2  dynamic  Yes        0     Po33
+      514 ec38.8f69.4286  dynamic  Yes       15     Po20
+      514 0050.569f.1034  dynamic  Yes      215     Po18
+      100 001b.1700.0330  dynamic  Yes       50     Po40
+  R   398 64a0.e7b3.d800   static   No       -      Router
+      514 0050.569f.6714  dynamic  Yes      160     Po18
+      504 0050.569f.777b  dynamic  Yes      160     Po18
+  R     5 64a0.e7b3.d800   static   No       -      Router
+      160 0050.569f.4d2b  dynamic  Yes      160     Po18
+      504 6cae.8b2c.d778  dynamic  Yes      160     Po18
+  R   581 64a0.e7b3.d800   static   No       -      Router
+      506 0050.569f.3b4f  dynamic  Yes      160     Po18
+      508 0050.569f.776a  dynamic  Yes      160     Po18
+      803 0896.ada7.c850  dynamic  Yes      160     Gi1/3/17
+      504 5cf3.fc5f.f491  dynamic  Yes      115     Po3
+      504 0050.569f.11b3  dynamic  Yes      150     Po18
+      504 6cae.8b2b.d1f1  dynamic  Yes       55     Po3
+      510 848f.69e7.e18a  dynamic  Yes       20     Gi2/4/25
+  R   504 64a0.e7b3.d800   static   No       -      Router
+      506 0050.569f.6e36  dynamic  Yes      295     Po18
+      504 0050.569f.66df  dynamic  Yes      160     Po18
+      401 0050.56bf.5723  dynamic  Yes      160     Po39
+      508 0050.569f.771b  dynamic  Yes      220     Po18
+       40 0050.569f.56c6  dynamic  Yes        0     Po33
+      504 0050.569f.44c0  dynamic  Yes        0     Po18
+      510 0050.569f.4cf2  dynamic  Yes        0     Po18
+      504 6cae.8b2a.2fc9  dynamic  Yes      160     Po18
+      503 0050.569f.4910  dynamic  Yes       65     Po18
+      507 0050.569f.0c7d  dynamic  Yes      160     Po18
+      508 0050.569f.552a  dynamic  Yes      160     Po18
+      506 0050.569f.5d09  dynamic  Yes      160     Po18
+      508 0050.569f.112f  dynamic  Yes      160     Po18
+      503 0050.569f.4907  dynamic  Yes       15     Po18
+      508 0050.569f.553c  dynamic  Yes       50     Po18
+      514 0050.569f.7689  dynamic  Yes      100     Po18
+      504 0050.569f.7603  dynamic  Yes      160     Po18
+      508 0050.569f.45d5  dynamic  Yes       90     Po18
+        2 cc16.7e45.c2a1  dynamic  Yes      175     Gi2/3/25
+      506 0050.569f.2be7  dynamic  Yes      160     Po18
+      511 0050.569f.7a6a  dynamic  Yes        0     Po33
+      514 0050.569f.774d  dynamic  Yes       30     Po18
+      503 0050.569f.2edc  dynamic  Yes      275     Po18
+      401 0050.56bf.47d0  dynamic  Yes      160     Po39
+      510 0050.569f.7e0f  dynamic  Yes      160     Po18
+      509 0050.569f.3688  dynamic  Yes      160     Po18
+      508 0050.569f.10fd  dynamic  Yes      160     Po18
+      506 0050.569f.3acd  dynamic  Yes      160     Po18
+      506 0050.569f.18c1  dynamic  Yes      160     Po18
+      510 0050.569f.3a65  dynamic  Yes      160     Po18
+      514 0050.569f.1139  dynamic  Yes      160     Po18
+      202 0050.569f.1b96  dynamic  Yes      290     Po18
+      508 0050.569f.0197  dynamic  Yes        0     Po18
+      510 0050.569f.5c60  dynamic  Yes      135     Po18
+      503 0050.569f.7bba  dynamic  Yes      120     Po18
+      911 0050.56bf.15ec  dynamic  Yes      160     Po39
+      508 0050.569f.109f  dynamic  Yes      160     Po18
+      202 0050.569f.5fac  dynamic  Yes      160     Po18
+      551 0050.56bf.0ee3  dynamic  Yes      160     Po39
+  R   852 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.3a54  dynamic  Yes       10     Po18
+      506 0050.569f.7e98  dynamic  Yes      160     Po18
+      510 0050.569f.3a5d  dynamic  Yes       10     Po18
+      504 246e.9619.26fc  dynamic  Yes      160     Gi2/4/27
+      508 0050.569f.455e  dynamic  Yes      160     Po18
+      506 0050.569f.3a71  dynamic  Yes      160     Po18
+      506 0050.569f.4d7b  dynamic  Yes      160     Po18
+      508 0050.569f.105c  dynamic  Yes      160     Po18
+      509 0050.569f.0529  dynamic  Yes      160     Po18
+      204 6cab.0521.00d0  dynamic  Yes       50     Gi1/4/18
+      701 0050.56bf.1edd  dynamic  Yes      160     Po39
+      510 0050.569f.2b87  dynamic  Yes      160     Po18
+  R   500 64a0.e7b3.d800   static   No       -      Router
+      884 0050.569f.24b1  dynamic  Yes      160     Po18
+  R   301 64a0.e7b3.d800   static   No       -      Router
+  R   514 64a0.e7b3.d800   static   No       -      Router
+      507 0050.569f.0d3f  dynamic  Yes       95     Po18
+      510 0050.569f.09e7  dynamic  Yes      165     Po18
+      400 70ca.9b01.16c1  dynamic  Yes      160     Po21
+      510 0050.569f.18ef  dynamic  Yes      160     Po18
+      504 0050.569f.76dd  dynamic  Yes       25     Po18
+      504 6cae.8b2f.0870  dynamic  Yes      160     Po18
+      650 0050.56bf.1708  dynamic  Yes      160     Po39
+      510 0050.569f.2bcd  dynamic  Yes      115     Po18
+      514 0050.569f.339a  dynamic  Yes       35     Po18
+        2 000b.abab.1a99  dynamic  Yes        0     Po3
+      507 0050.569f.1c6f  dynamic  Yes      160     Po18
+      504 6cae.8b23.bd1e  dynamic  Yes       20     Po3
+      510 0050.569f.4dc8  dynamic  Yes      160     Po18
+      900 0008.e3ff.fe78  dynamic  Yes      160     Po39
+      514 0050.569f.5595  dynamic  Yes      160     Po18
+      510 0050.569f.6fcf  dynamic  Yes       15     Po18
+     1102 848f.69e7.e18c  dynamic  Yes      160     Gi2/3/15
+      180 0050.569f.3bfa  dynamic  Yes      160     Po18
+      510 0050.569f.6c1c  dynamic  Yes       25     Po18
+      510 0050.569f.1b08  dynamic  Yes      160     Po18
+      506 0050.569f.28de  dynamic  Yes      130     Po18
+      504 1880.90ff.45b6  dynamic  Yes      160     Gi2/4/30
+      750 0050.56bf.4acc  dynamic  Yes      160     Po39
+      508 0050.569f.57cc  dynamic  Yes      160     Po18
+      911 000c.2968.50f6  dynamic  Yes      160     Po39
+  R   559 64a0.e7b3.d800   static   No       -      Router
+      585 0009.0f09.0024  dynamic  Yes      160     Gi1/3/40
+      510 0050.569f.6c31  dynamic  Yes        0     Po18
+      510 0050.569f.0a25  dynamic  Yes      160     Po18
+      911 0011.328b.0691  dynamic  Yes      160     Po39
+      504 6cae.8b2d.6f20  dynamic  Yes      160     Po18
+      504 e200.0598.1606  dynamic  Yes      110     Po3
+       40 0050.569f.5471  dynamic  Yes        0     Po33
+      504 0050.569f.4672  dynamic  Yes      160     Po18
+      510 0050.569f.5f4b  dynamic  Yes        5     Po18
+      504 5cf3.fc5f.b241  dynamic  Yes       90     Po3
+      504 6cae.8b2b.d335  dynamic  Yes       55     Po3
+      510 0050.569f.5f5c  dynamic  Yes       15     Po18
+      504 6cae.8b2d.6f00  dynamic  Yes      160     Po18
+      504 6cae.8b2b.d301  dynamic  Yes      115     Po3
+      510 5cf3.fcba.ab78  dynamic  Yes        0     Po3
+      504 6cae.8b2e.93b1  dynamic  Yes      160     Po3
+      201 0050.569f.1411  dynamic  Yes      160     Po18
+      310 001b.1700.0132  dynamic  Yes      160     Po35
+      506 0050.569f.7da8  dynamic  Yes      160     Po18
+      202 0050.569f.099d  dynamic  Yes      160     Po18
+      504 0050.569f.025b  dynamic  Yes      210     Po18
+      508 0050.569f.3171  dynamic  Yes      160     Po18
+      508 0050.569f.2064  dynamic  Yes      160     Po18
+      400 7499.75e4.6900  dynamic  Yes      160     Po3
+      508 0050.569f.7548  dynamic  Yes      160     Po18
+      398 0050.569f.022d  dynamic  Yes      160     Po33
+      514 0050.569f.74e4  dynamic  Yes        5     Po18
+      514 0050.569f.74e3  dynamic  Yes      160     Po18
+      506 0050.569f.1b02  dynamic  Yes      160     Po18
+      504 e41f.1374.e2e3  dynamic  Yes      160     Po3
+      398 0050.569f.2045  dynamic  Yes      160     Po33
+      601 0050.56bf.5963  dynamic  Yes      160     Po39
+      180 0050.569f.3b2d  dynamic  Yes      160     Po18
+      504 e41f.1374.e2e4  dynamic  Yes      115     Po3
+      510 0050.569f.28cb  dynamic  Yes      160     Po18
+      401 0050.56bf.551e  dynamic  Yes      160     Po39
+      510 0050.569f.4edc  dynamic  Yes      160     Po18
+  R  1100 64a0.e7b3.d800   static   No       -      Router
+      504 0050.569f.02ca  dynamic  Yes      160     Po18
+      510 0050.569f.28fa  dynamic  Yes      150     Po18
+      514 0050.569f.47b3  dynamic  Yes       65     Po18
+  R   555 64a0.e7b3.d800   static   No       -      Router
+      504 6cae.8b2e.3905  dynamic  Yes       40     Po3
+      514 0050.569f.12b3  dynamic  Yes       80     Po18
+      510 0050.569f.6d1a  dynamic  Yes        0     Po18
+  R   204 64a0.e7b3.d800   static   No       -      Router
+      503 0050.569f.68cf  dynamic  Yes      160     Po18
+      510 0050.569f.7c09  dynamic  Yes       55     Po18
+      504 0027.f844.1ff5  dynamic  Yes       20     Po3
+      803 0000.0c07.ac02  dynamic  Yes      160     Gi1/3/15
+      803 0000.0c07.ac01  dynamic  Yes      160     Gi1/3/15
+      550 0050.56bf.6ed4  dynamic  Yes      160     Po39
+      504 0009.0f09.000a  dynamic  Yes      160     Gi2/4/36
+      510 0050.569f.0b2a  dynamic  Yes      160     Po18
+      410 0050.56bf.2ed6  dynamic  Yes      160     Po39
+      510 0050.569f.0b38  dynamic  Yes        0     Po18
+      400 240b.0a00.c552  dynamic  Yes        0     Gi2/3/42
+      506 0050.569f.6df4  dynamic  Yes      160     Po18
+      506 0050.569f.0b98  dynamic  Yes      160     Po18
+      509 0050.569f.25d6  dynamic  Yes      160     Po18
+      510 0050.569f.7c52  dynamic  Yes        0     Po18
+      508 0050.569f.21bb  dynamic  Yes      290     Po18
+      514 1880.90ff.45bc  dynamic  Yes        0     Gi1/3/29
+      503 0050.569f.2c84  dynamic  Yes      175     Po18
+  R   538 64a0.e7b3.d800   static   No       -      Router
+      601 0050.56bf.6bd8  dynamic  Yes      160     Po39
+      510 0050.569f.4f75  dynamic  Yes       50     Po18
+      504 98be.9446.7212  dynamic  Yes      160     Po3
+      401 001b.1700.0131  dynamic  Yes        0     Po37
+      514 0050.569f.6431  dynamic  Yes      160     Po18
+      504 0050.569f.4753  dynamic  Yes      160     Po18
+      505 0050.569f.16cd  dynamic  Yes      160     Po18
+  R   551 64a0.e7b3.d800   static   No       -      Router
+      504 0050.5666.b0b8  dynamic  Yes      160     Po18
+      504 50eb.1a99.7506  dynamic  Yes      160     Po3
+      506 0050.569f.7c50  dynamic  Yes        0     Po18
+       40 0050.569f.44b7  dynamic  Yes        0     Po33
+      508 0050.569f.2171  dynamic  Yes      160     Po18
+      504 6cae.8b2c.5c98  dynamic  Yes      160     Po18
+      398 b40c.25e1.0010  dynamic  Yes       35     Po10
+      507 0050.569f.5a1a  dynamic  Yes       85     Po18
+      510 e41f.13ed.3a8a  dynamic  Yes        0     Po3
+      508 0050.569f.744d  dynamic  Yes      160     Po18
+  R   305 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.7ca8  dynamic  Yes      160     Po18
+      510 0050.569f.29cb  dynamic  Yes        0     Po18
+      883 0000.0000.0010  dynamic  Yes        0     Po3
+      510 0050.569f.29ce  dynamic  Yes      160     Po18
+      508 b40c.25e1.0011  dynamic  Yes       35     Po12
+      510 0050.569f.4fff  dynamic  Yes      305     Po18
+       40 000b.abab.174a  dynamic  Yes      160     Po3
+      514 0050.569f.75aa  dynamic  Yes      290     Po18
+      504 6cae.8b2b.d291  dynamic  Yes       10     Po3
+      549 0050.56bf.73b3  dynamic  Yes      160     Po39
+      504 6cae.8b2d.5d80  dynamic  Yes      160     Po18
+        2 000e.b66d.a5e0  dynamic  Yes      160     Gi1/3/19
+      503 0050.569f.6839  dynamic  Yes       15     Po18
+      750 0050.56bf.5a0c  dynamic  Yes      160     Po39
+      510 0050.569f.51e6  dynamic  Yes      160     Po18
+      510 0050.569f.26f2  dynamic  Yes      160     Po18
+      504 6cae.8b2a.32d1  dynamic  Yes      160     Po18
+      506 0050.569f.3735  dynamic  Yes      160     Po18
+      511 0050.569f.119a  dynamic  Yes        0     Po33
+      510 0050.569f.15e9  dynamic  Yes      135     Po18
+      506 0050.569f.7323  dynamic  Yes      160     Po18
+      504 6cb2.ae1e.c6f4  dynamic  Yes       65     Gi1/4/41
+  R     6 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.62c5  dynamic  Yes       15     Po18
+      508 0050.569f.0c25  dynamic  Yes      160     Po18
+      504 90e2.ba46.72bc  dynamic  Yes        0     Po3
+      510 0050.569f.51db  dynamic  Yes      160     Po18
+      504 6cae.8b2a.3291  dynamic  Yes      160     Po18
+      510 f415.6365.4204  dynamic  Yes        0     Gi1/3/32
+      510 0050.569f.3791  dynamic  Yes        5     Po18
+  R  N/A  64a0.e7b3.d800   static   No       -      Router
+      506 0050.569f.0443  dynamic  Yes      160     Po18
+  R   560 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.3785  dynamic  Yes      160     Po18
+      202 0050.569f.257d  dynamic  Yes        0     Po18
+      510 0050.569f.7390  dynamic  Yes       25     Po18
+      514 0050.569f.49cb  dynamic  Yes      175     Po18
+       23 7001.b503.3831  dynamic  Yes      160     Gi2/3/39
+      514 88cf.9883.4c2c  dynamic  Yes      180     Po20
+      802 001b.1700.0130  dynamic  Yes      160     Gi1/3/7
+      508 0050.569f.0c97  dynamic  Yes      160     Po18
+      503 0050.569f.32ad  dynamic  Yes      160     Po18
+      506 f415.6365.4206  dynamic  Yes      160     Gi2/3/32
+      510 0050.569f.2672  dynamic  Yes      160     Po18
+      510 0050.569f.376c  dynamic  Yes        0     Po18
+      506 0050.569f.04b8  dynamic  Yes      160     Po18
+  R   507 64a0.e7b3.d800   static   No       -      Router
+      504 6cae.8b2e.37a9  dynamic  Yes      160     Po3
+      506 0050.569f.1587  dynamic  Yes      160     Po18
+      501 0050.56bf.3695  dynamic  Yes      160     Po39
+      504 6cae.8b2e.37b9  dynamic  Yes       30     Po3
+      410 0050.56bf.65ae  dynamic  Yes      160     Po39
+      506 0050.569f.37ec  dynamic  Yes      160     Po18
+      510 0050.569f.622c  dynamic  Yes        0     Po18
+      503 0050.569f.54fd  dynamic  Yes       60     Po18
+  R   582 64a0.e7b3.d800   static   No       -      Router
+      601 0050.56bf.469e  dynamic  Yes      160     Po39
+      507 0050.569f.0082  dynamic  Yes       80     Po18
+      511 0050.569f.7749  dynamic  Yes        0     Po33
+      504 6cae.8b2c.db28  dynamic  Yes      160     Po18
+        2 000b.abab.174b  dynamic  Yes        0     Po3
+      506 0050.569f.04cd  dynamic  Yes       65     Po18
+       60 0062.ecb5.7b81  dynamic  Yes      160     Gi1/3/18
+  R     2 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.72fa  dynamic  Yes        0     Po18
+      202 0050.569f.5318  dynamic  Yes      160     Po18
+      504 98be.945d.05ce  dynamic  Yes       95     Po3
+      180 f415.6366.4203  dynamic  Yes        0     Gi2/4/19
+      504 6cae.8b2d.71b8  dynamic  Yes      160     Po18
+      504 0050.569f.3ef2  dynamic  Yes      160     Po18
+      585 0062.ecb5.7b82  dynamic  Yes      160     Gi1/3/37
+      506 0050.569f.416d  dynamic  Yes      160     Po18
+      508 0050.569f.0d57  dynamic  Yes      160     Po18
+      601 0050.56bf.7401  dynamic  Yes      160     Po39
+      504 6cae.8b2e.364d  dynamic  Yes        0     Po3
+      506 0050.569f.2756  dynamic  Yes      160     Po18
+      514 6cb2.ae1e.c6fa  dynamic  Yes        0     Gi2/4/9
+       40 0050.569f.2cae  dynamic  Yes        0     Po33
+      202 0050.569f.6076  dynamic  Yes      160     Po18
+      504 0050.5664.6164  dynamic  Yes      160     Po18
+  R   590 64a0.e7b3.d800   static   No       -      Router
+      506 0050.569f.6352  dynamic  Yes      160     Po18
+      510 0050.569f.727b  dynamic  Yes       15     Po18
+      510 0050.569f.367b  dynamic  Yes      160     Po18
+      504 e200.0570.7002  dynamic  Yes       15     Po3
+      750 0050.56bf.7689  dynamic  Yes      160     Po39
+  R   586 64a0.e7b3.d800   static   No       -      Router
+      180 0050.569f.34b0  dynamic  Yes      160     Po18
+      509 0050.569f.09d5  dynamic  Yes      160     Po18
+      750 001b.1700.0131  dynamic  Yes       10     Po37
+     1200 001b.1700.0132  dynamic  Yes      160     Po35
+      207 6cab.0521.00d2  dynamic  Yes      160     Gi1/3/11
+      510 0050.569f.362d  dynamic  Yes        5     Po18
+      202 e200.0094.9004  dynamic  Yes        0     Po3
+      510 0050.569f.633c  dynamic  Yes      215     Po18
+      503 0050.569f.77e2  dynamic  Yes       60     Po18
+      401 0050.56bf.3ce6  dynamic  Yes      160     Po39
+      504 6cae.8b2c.da00  dynamic  Yes      135     Po18
+      410 0050.56bf.46e9  dynamic  Yes      150     Po39
+        2 0050.569f.01c2  dynamic  Yes      160     Po18
+  R   851 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.0509  dynamic  Yes      160     Po18
+      510 0050.569f.6318  dynamic  Yes      160     Po18
+  R   503 64a0.e7b3.d800   static   No       -      Router
+      514 0050.569f.0c44  dynamic  Yes       50     Po18
+      503 0050.569f.22c8  dynamic  Yes      110     Po18
+      510 0050.569f.5004  dynamic  Yes        0     Po18
+      508 0050.569f.58e8  dynamic  Yes      160     Po18
+      510 40f2.e96c.69d8  dynamic  Yes      160     Po3
+      911 0050.56bf.1a45  dynamic  Yes      160     Po39
+      501 0050.56bf.1606  dynamic  Yes      160     Po39
+      503 b40c.25e1.0011  dynamic  Yes       35     Po12
+      400 d4f4.bec3.78a7  dynamic  Yes        0     Gi2/3/40
+      508 0050.569f.4a05  dynamic  Yes      160     Po18
+      508 0050.569f.790e  dynamic  Yes      250     Po18
+        2 0000.0c9f.f001  dynamic  Yes       40     Gi1/3/25
+      503 0050.569f.652a  dynamic  Yes       10     Po18
+      506 0050.569f.243f  dynamic  Yes      160     Po18
+      503 0050.569f.304d  dynamic  Yes       15     Po18
+      508 0050.569f.6860  dynamic  Yes      160     Po18
+      510 0050.569f.1792  dynamic  Yes      160     Po18
+      508 0050.569f.4a65  dynamic  Yes      120     Po18
+      204 001b.1700.0132  dynamic  Yes      160     Po35
+      900 240b.0a00.6cc6  dynamic  Yes      160     Gi1/4/3
+      508 0050.569f.4a7c  dynamic  Yes      160     Po18
+      202 0050.569f.726b  dynamic  Yes      160     Po18
+      401 0050.56bf.5960  dynamic  Yes      160     Po39
+  R   556 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.35bb  dynamic  Yes       30     Po18
+      514 0050.569f.4be3  dynamic  Yes      160     Po18
+      510 0050.569f.60b9  dynamic  Yes      235     Po18
+      504 6cae.8b2c.d998  dynamic  Yes      160     Po18
+      180 f415.6365.4203  dynamic  Yes        0     Gi1/4/44
+      507 0050.569f.64e4  dynamic  Yes      150     Po18
+      514 0050.569f.4b11  dynamic  Yes      160     Po18
+      508 0050.569f.68ba  dynamic  Yes      160     Po18
+      510 0050.569f.3540  dynamic  Yes      160     Po18
+      506 0050.569f.069b  dynamic  Yes      160     Po18
+      510 0050.569f.177e  dynamic  Yes      160     Po18
+      504 0050.5666.db5d  dynamic  Yes      160     Po18
+      202 0050.569f.509f  dynamic  Yes        0     Po18
+      506 0050.569f.42aa  dynamic  Yes      160     Po18
+      508 0050.569f.799e  dynamic  Yes      160     Po18
+      510 0050.569f.4271  dynamic  Yes        5     Po18
+      504 0050.569f.3d20  dynamic  Yes      160     Po18
+      551 001b.1700.0131  dynamic  Yes        5     Po37
+      506 0050.569f.06d1  dynamic  Yes      160     Po18
+      911 0050.56bf.7cbf  dynamic  Yes      320     Po39
+      510 0050.569f.422d  dynamic  Yes      160     Po18
+       40 000b.abab.1a98  dynamic  Yes        0     Po3
+      510 0050.569f.6021  dynamic  Yes      160     Po18
+      911 0050.5662.c684  dynamic  Yes      160     Po39
+        4 3440.b5ac.32b4  dynamic  Yes       40     Po3
+      506 0050.569f.17fe  dynamic  Yes      160     Po18
+      510 0050.569f.34c1  dynamic  Yes      160     Po18
+      180 0050.569f.1435  dynamic  Yes        0     Po18
+      398 001b.1700.0333  dynamic  Yes        0     Po45
+      506 0050.569f.0708  dynamic  Yes      160     Po18
+      514 0050.569f.2c83  dynamic  Yes        5     Po18
+      508 0050.569f.5a23  dynamic  Yes      160     Po18
+      504 98be.9447.f7ea  dynamic  Yes      160     Po3
+      514 0050.569f.2cb4  dynamic  Yes       15     Po18
+      511 0050.569f.4785  dynamic  Yes        0     Po33
+      514 a4dc.be1e.4aae  dynamic  Yes        0     Po20
+      701 001b.1700.0131  dynamic  Yes        0     Po37
+      504 3440.b5a1.a198  dynamic  Yes        0     Po3
+      504 3440.b5a1.a19a  dynamic  Yes        0     Po3
+      506 f415.6366.4206  dynamic  Yes      160     Gi2/3/45
+      504 0050.569f.0fce  dynamic  Yes        0     Po18
+      508 0050.569f.3c17  dynamic  Yes      310     Po18
+      506 0050.569f.255b  dynamic  Yes      160     Po18
+      504 6cae.8b2c.d8b8  dynamic  Yes      160     Po18
+      508 0050.569f.787d  dynamic  Yes        0     Po18
+      506 0050.569f.5255  dynamic  Yes      160     Po18
+      506 0050.569f.435c  dynamic  Yes      160     Po18
+      508 0050.569f.5a61  dynamic  Yes      160     Po18
+      510 0050.569f.0793  dynamic  Yes      160     Po18
+      507 b40c.25e1.0011  dynamic  Yes        0     Po12
+      506 0050.569f.0778  dynamic  Yes      160     Po18
+      506 0050.569f.5266  dynamic  Yes      305     Po18
+      505 00c0.dd26.efb4  dynamic  Yes      160     Po18
+      510 0050.569f.25b7  dynamic  Yes        0     Po18
+      510 0050.569f.16bc  dynamic  Yes      160     Po18
+      507 0050.569f.4709  dynamic  Yes      160     Po18
+      510 085b.0e0c.5e12  dynamic  Yes        0     Gi1/4/15
+  R   203 64a0.e7b3.d800   static   No       -      Router
+      503 0050.569f.7580  dynamic  Yes      160     Po18
+     1100 001b.1700.0132  dynamic  Yes      160     Po35
+      501 0050.56bf.2489  dynamic  Yes      160     Po39
+      506 0050.569f.709c  dynamic  Yes       30     Po18
+      508 0050.569f.78a0  dynamic  Yes      160     Po18
+      506 0050.569f.70a6  dynamic  Yes      160     Po18
+      510 0050.569f.2563  dynamic  Yes      125     Po18
+      510 0050.569f.526d  dynamic  Yes       60     Po18
+      508 0050.569f.2d9d  dynamic  Yes      160     Po18
+      514 0050.569f.0e55  dynamic  Yes       30     Po18
+      398 0050.569f.5a8c  dynamic  Yes       20     Po33
+      504 000e.1115.ae5d  dynamic  Yes       30     Po3
+      508 0050.569f.69e6  dynamic  Yes      160     Po18
+      507 0050.569f.47a5  dynamic  Yes       25     Po18
+      601 001b.1700.0131  dynamic  Yes        0     Po37
+      510 0050.569f.3421  dynamic  Yes      160     Po18
+      510 0090.fb43.f589  dynamic  Yes        0     Gi1/3/13
+      508 0050.569f.4bde  dynamic  Yes      125     Po18
+      506 0050.569f.25ed  dynamic  Yes      160     Po18
+      510 0050.569f.3439  dynamic  Yes      140     Po18
+      508 0050.569f.0fd9  dynamic  Yes      160     Po18
+      504 6cae.8b2b.8b59  dynamic  Yes       50     Po3
+      506 0050.569f.70fa  dynamic  Yes      160     Po18
+      145 0050.569f.774a  dynamic  Yes      160     Po18
+      911 0050.5669.370a  dynamic  Yes      160     Po39
+      506 0050.569f.2272  dynamic  Yes      160     Po18
+  R     7 64a0.e7b3.d800   static   No       -      Router
+      911 0050.56bf.7a11  dynamic  Yes      150     Po39
+      511 0050.569f.37e4  dynamic  Yes        0     Po33
+      510 0050.569f.5580  dynamic  Yes      160     Po18
+      504 0090.fb43.eb06  dynamic  Yes        5     Gi1/3/4
+      510 0050.569f.3399  dynamic  Yes      160     Po18
+      911 0050.56bf.7a76  dynamic  Yes      160     Po39
+      506 0050.569f.2223  dynamic  Yes      160     Po18
+      514 0050.569f.18ad  dynamic  Yes      160     Po18
+      503 0050.569f.1429  dynamic  Yes       25     Po18
+      510 0050.569f.33e6  dynamic  Yes      200     Po18
+      514 0050.569f.2bb1  dynamic  Yes      160     Po18
+      508 0050.569f.0802  dynamic  Yes      160     Po18
+  R   561 64a0.e7b3.d800   static   No       -      Router
+      514 0050.569f.4da9  dynamic  Yes      160     Po18
+  R  N/A  64a0.e7b3.d800   static   No       -      Router
+      506 0050.569f.771e  dynamic  Yes      160     Po18
+      511 f415.6365.4205  dynamic  Yes        0     Gi1/3/30
+      504 0050.569f.5dfb  dynamic  Yes      160     Po18
+      510 000b.abab.174c  dynamic  Yes       10     Po3
+      650 0050.56bf.0f25  dynamic  Yes      160     Po39
+      510 0050.569f.55d6  dynamic  Yes      160     Po18
+  R   510 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.22c7  dynamic  Yes        0     Po18
+      514 0050.569f.186f  dynamic  Yes       30     Po18
+      504 0050.569f.5d1a  dynamic  Yes        0     Po18
+     1101 001b.1700.0230  dynamic  Yes      160     Po13
+  R   145 64a0.e7b3.d800   static   No       -      Router
+      507 0050.569f.739b  dynamic  Yes      160     Po18
+      508 0050.569f.08fb  dynamic  Yes      160     Po18
+      510 0050.569f.7700  dynamic  Yes       10     Po18
+  R   506 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.0001  dynamic  Yes       90     Po18
+      506 0050.569f.33d6  dynamic  Yes      160     Po18
+      160 0050.569f.6769  dynamic  Yes      160     Po18
+      510 0050.569f.446e  dynamic  Yes       10     Po18
+      202 0050.569f.128e  dynamic  Yes        0     Po18
+      503 0050.569f.50b0  dynamic  Yes        0     Po18
+      507 0050.569f.51c6  dynamic  Yes      160     Po18
+      514 0050.569f.2b24  dynamic  Yes      160     Po18
+  R     3 64a0.e7b3.d800   static   No       -      Router
+      501 001b.1700.0131  dynamic  Yes        0     Po37
+      514 0050.569f.5c19  dynamic  Yes       20     Po18
+      514 0050.569f.3a1d  dynamic  Yes      160     Po18
+      508 0050.569f.2aa2  dynamic  Yes      290     Po18
+      508 0050.569f.08a8  dynamic  Yes      160     Po18
+      510 0050.569f.23a6  dynamic  Yes       45     Po18
+      510 0050.569f.10a8  dynamic  Yes       55     Po18
+      504 3440.b5df.212a  dynamic  Yes       35     Po3
+  R   160 64a0.e7b3.d800   static   No       -      Router
+      549 0050.56bf.4ae8  dynamic  Yes      160     Po39
+      510 0050.569f.54a4  dynamic  Yes        0     Po18
+      503 0050.569f.5170  dynamic  Yes       30     Po18
+      508 0050.569f.2b51  dynamic  Yes       10     Po18
+      508 0050.569f.4d42  dynamic  Yes      160     Po18
+      514 0050.569f.7ff0  dynamic  Yes      160     Po18
+      510 0050.569f.769c  dynamic  Yes       25     Po18
+      400 240b.0a00.a9fa  dynamic  Yes        0     Gi1/3/23
+      511 0050.569f.05f5  dynamic  Yes      160     Po33
+      401 0050.56bf.294f  dynamic  Yes      160     Po39
+      508 0050.569f.3a78  dynamic  Yes      160     Po18
+      202 bc16.6505.b8e1  dynamic  Yes      100     Gi2/3/38
+      400 00a3.d167.82d2  dynamic  Yes      160     Po3
+      510 0050.569f.45f8  dynamic  Yes      160     Po18
+        2 00e0.81c2.8487  dynamic  Yes      160     Gi1/3/20
+      506 0050.569f.452b  dynamic  Yes      160     Po18
+      508 0050.569f.2b07  dynamic  Yes      300     Po18
+      508 0050.569f.6f07  dynamic  Yes      295     Po18
+      506 0050.569f.3224  dynamic  Yes       15     Po18
+      510 0050.569f.32fa  dynamic  Yes        0     Po18
+      507 0050.569f.1455  dynamic  Yes      215     Po18
+      504 3440.b5df.6558  dynamic  Yes       15     Po3
+      650 0050.56bf.4a20  dynamic  Yes      160     Po39
+      145 0050.569f.322d  dynamic  Yes      160     Po18
+      510 0050.569f.76c3  dynamic  Yes        0     Po18
+      510 0050.569f.7636  dynamic  Yes        0     Po18
+      510 0050.569f.4539  dynamic  Yes      135     Po18
+      510 0050.569f.0133  dynamic  Yes        0     Po18
+      180 0050.569f.03cd  dynamic  Yes      160     Po18
+      504 6cae.8b2c.de08  dynamic  Yes      160     Po18
+      510 0050.569f.542e  dynamic  Yes      160     Po18
+      506 0050.569f.67f8  dynamic  Yes      160     Po18
+      202 0050.569f.13fd  dynamic  Yes      160     Po18
+      503 0050.569f.62cb  dynamic  Yes      160     Po18
+      506 0050.569f.10d4  dynamic  Yes      295     Po18
+  R   800 64a0.e7b3.d800   static   No       -      Router
+      503 0050.569f.37c2  dynamic  Yes      115     Po18
+      800 000b.abab.174d  dynamic  Yes      170     Po3
+      900 001b.1700.0131  dynamic  Yes        5     Po37
+      504 6cae.8b2e.98d1  dynamic  Yes        5     Po3
+      506 0050.569f.45d7  dynamic  Yes      160     Po18
+      207 0000.0c07.ac01  dynamic  Yes      160     Gi1/3/11
+      503 0050.569f.37b0  dynamic  Yes       70     Po18
+      503 0050.569f.26b5  dynamic  Yes       20     Po18
+      160 0050.569f.3310  dynamic  Yes      160     Po18
+  R   512 64a0.e7b3.d800   static   No       -      Router
+      398 0050.569f.18e0  dynamic  Yes      160     Po33
+  R   303 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.017a  dynamic  Yes       10     Po18
+      510 848f.69e8.38e0  dynamic  Yes        0     Gi1/4/25
+      507 0050.569f.41f1  dynamic  Yes      195     Po18
+      202 0050.569f.57b4  dynamic  Yes        0     Po18
+      400 b40c.25e1.0011  dynamic  Yes       35     Po12
+      504 ecf4.bbf0.14ec  dynamic  Yes      110     Po3
+       40 0050.569f.6c75  dynamic  Yes        0     Po33
+      514 0050.569f.38c4  dynamic  Yes      160     Po18
+      180 0050.569f.0069  dynamic  Yes        0     Po18
+  R   400 64a0.e7b3.d800   static   No       -      Router
+      400 7499.75e4.6100  dynamic  Yes      160     Po3
+      506 0050.569f.1355  dynamic  Yes      160     Po18
+       40 0050.569f.2b88  dynamic  Yes        0     Po33
+      510 0050.569f.13ba  dynamic  Yes        0     Po18
+      507 0050.569f.241b  dynamic  Yes      160     Po18
+      504 6cae.8b2e.9b61  dynamic  Yes       65     Po3
+      511 0050.569f.53cd  dynamic  Yes        0     Po33
+      510 0050.569f.75c2  dynamic  Yes      160     Po18
+      510 0050.569f.46d4  dynamic  Yes       55     Po18
+      514 0050.569f.1aa8  dynamic  Yes      160     Po18
+      800 0009.0f09.0023  dynamic  Yes        0     Gi1/4/11
+      800 0009.0f09.0020  dynamic  Yes      170     Gi1/4/7
+      514 0050.569f.7cb3  dynamic  Yes      160     Po18
+      504 ecf4.bbee.3fbc  dynamic  Yes      160     Po3
+      509 0050.569f.6863  dynamic  Yes      295     Po18
+      145 0050.569f.5716  dynamic  Yes        5     Po18
+      145 0050.569f.1308  dynamic  Yes       40     Po18
+      504 6cae.8b2d.6798  dynamic  Yes      160     Po18
+      504 6cae.8b2c.44e0  dynamic  Yes      160     Po18
+        2 e200.0094.9003  dynamic  Yes        0     Po400
+      803 001b.1700.0331  dynamic  Yes        0     Po42
+      550 0050.56bf.23d6  dynamic  Yes      150     Po39
+      510 0050.569f.5715  dynamic  Yes       25     Po18
+  R   180 64a0.e7b3.d800   static   No       -      Router
+      514 0050.569f.0b69  dynamic  Yes      160     Po18
+      504 0050.569f.0a1f  dynamic  Yes      160     Po18
+      510 0050.569f.312b  dynamic  Yes      160     Po18
+  R  1102 64a0.e7b3.d800   static   No       -      Router
+       50 b40c.25e1.0010  dynamic  Yes        0     Po10
+      504 0050.5665.76a3  dynamic  Yes      160     Po18
+      508 0050.569f.1bb9  dynamic  Yes      160     Po18
+      510 0050.569f.315d  dynamic  Yes        0     Po18
+      510 0050.569f.5741  dynamic  Yes      160     Po18
+      504 3440.b5bf.c8d5  dynamic  Yes      160     Po3
+      514 0050.569f.3816  dynamic  Yes       80     Po18
+      506 0050.569f.1398  dynamic  Yes      160     Po18
+      508 0050.569f.2890  dynamic  Yes       40     Po18
+      506 0050.569f.31ae  dynamic  Yes      160     Po18
+      160 b40c.25e1.0011  dynamic  Yes       15     Po12
+      508 0050.569f.1b8f  dynamic  Yes      160     Po18
+      504 3440.b5bf.c8f5  dynamic  Yes       35     Po3
+      504 6cae.8b2d.fe29  dynamic  Yes      160     Po18
+      510 0050.569f.647a  dynamic  Yes        5     Po18
+      510 0050.569f.3089  dynamic  Yes      160     Po18
+      202 0050.569f.1166  dynamic  Yes        0     Po18
+       40 0050.569f.5dba  dynamic  Yes        5     Po33
+      506 0050.569f.6554  dynamic  Yes      160     Po18
+      504 0050.569f.0baf  dynamic  Yes      160     Po18
+      506 0050.569f.7455  dynamic  Yes      160     Po18
+      700 001b.1700.0131  dynamic  Yes      160     Po37
+      514 0050.569f.1bff  dynamic  Yes       65     Po18
+      506 0050.569f.307f  dynamic  Yes      160     Po18
+      506 0050.569f.476f  dynamic  Yes      160     Po18
+      504 40f2.e9bf.1e12  dynamic  Yes      160     Po3
+      911 0050.56bf.4a30  dynamic  Yes      150     Po39
+      506 0050.569f.5678  dynamic  Yes      160     Po18
+      202 0050.569f.5522  dynamic  Yes        0     Po18
+      503 0050.569f.7110  dynamic  Yes       75     Po18
+      503 0050.569f.0604  dynamic  Yes        0     Po18
+      504 0050.569f.7cf1  dynamic  Yes      160     Po18
+      506 b40c.25e1.0011  dynamic  Yes       35     Po12
+      508 0050.569f.1a3b  dynamic  Yes      115     Po18
+      514 0050.569f.6c92  dynamic  Yes      195     Po18
+      504 0001.c01b.4bfc  dynamic  Yes        5     Po3
+      507 0050.569f.075a  dynamic  Yes      305     Po18
+      506 0050.569f.4733  dynamic  Yes      285     Po18
+      508 0050.569f.0b13  dynamic  Yes      160     Po18
+      401 0050.56bf.3a30  dynamic  Yes      320     Po39
+  R    23 64a0.e7b3.d800   static   No       -      Router
+      504 90e2.ba46.8a5c  dynamic  Yes      160     Po3
+      514 0050.569f.0a55  dynamic  Yes      160     Po18
+      507 0050.569f.25a4  dynamic  Yes      160     Po18
+      514 0050.569f.0a47  dynamic  Yes      160     Po18
+      202 0050.569f.55f4  dynamic  Yes        0     Po18
+      506 0050.569f.47d3  dynamic  Yes        0     Po18
+      508 0050.569f.6dda  dynamic  Yes      160     Po18
+  R    19 64a0.e7b3.d800   static   No       -      Router
+      506 0050.569f.56eb  dynamic  Yes      160     Po18
+      501 0050.56bf.64e4  dynamic  Yes      160     Po39
+      510 0050.569f.122b  dynamic  Yes        0     Po18
+      900 240b.0a00.8752  dynamic  Yes      160     Gi2/4/3
+  R   202 64a0.e7b3.d800   static   No       -      Router
+      510 0050.569f.4724  dynamic  Yes      165     Po18
+      511 f415.6366.4205  dynamic  Yes        5     Gi1/3/28
+      508 0050.569f.29af  dynamic  Yes      165     Po18
+      400 d4f4.bec3.7d3f  dynamic  Yes        5     Gi1/3/21
+      506 0050.569f.2185  dynamic  Yes      165     Po18
+      501 0050.56bf.64aa  dynamic  Yes      165     Po39
+        2 cc16.7e46.0751  dynamic  Yes        0     Gi1/3/25
+      510 0050.569f.307a  dynamic  Yes       10     Po18
+      503 0050.569f.35ac  dynamic  Yes       20     Po18
+      202 0050.569f.5cb6  dynamic  Yes        5     Po18
+      504 e200.0fbf.9706  dynamic  Yes      135     Po3
+     2000 b40c.25e1.0011  dynamic  Yes       40     Po12
+      803 001b.1700.0231  dynamic  Yes        0     Po14
+      514 0050.569f.285d  dynamic  Yes      255     Po18
+      504 b40c.25e1.0011  dynamic  Yes        5     Po12
+  R  1101 64a0.e7b3.d800   static   No       -      Router
+      160 0050.569f.23b4  dynamic  Yes      165     Po18
+      509 e200.0570.7003  dynamic  Yes      165     Po400
+      180 b40c.25e1.0011  dynamic  Yes       40     Po12
+     1008 0000.0000.0a72  dynamic  Yes      265     
+      883 0050.569f.56c8  dynamic  Yes      165     Po18
+      410 0050.56bf.1427  dynamic  Yes      165     Po39
+      510 0050.569f.08e3  dynamic  Yes      135     Po18
+      202 0050.569f.4dc1  dynamic  Yes        5     Po18
+  R   207 64a0.e7b3.d800   static   No       -      Router
+      505 0050.569f.3dc4  dynamic  Yes       70     Po18
+  R   552 64a0.e7b3.d800   static   No       -      Router
+      511 0050.569f.7d2b  dynamic  Yes        5     Po33
+       40 b40c.25e1.0010  dynamic  Yes        0     Po10
+      506 0050.569f.15f1  dynamic  Yes      165     Po18
+      506 0050.569f.276c  dynamic  Yes      165     Po18
+      508 0050.569f.056d  dynamic  Yes      165     Po18
+       60 001b.1700.0331  dynamic  Yes        0     Po42
+      508 0050.569f.2456  dynamic  Yes      165     Po18
+      504 3440.b5df.08d6  dynamic  Yes       40     Po3
+      503 0050.569f.3720  dynamic  Yes       35     Po18
+      204 6cab.0521.1fc0  dynamic  Yes      165     Gi2/4/16
+      202 0050.569f.7e17  dynamic  Yes        5     Po18
+      504 90e2.ba41.0b60  dynamic  Yes       40     Po3
+       60 001b.1700.0231  dynamic  Yes        5     Po14
+      504 6cae.8b2b.7f7d  dynamic  Yes       70     Po3
+      145 b40c.25e1.0011  dynamic  Yes       15     Po12
+      410 0050.56bf.27dd  dynamic  Yes      165     Po39
+      160 0050.569f.63f5  dynamic  Yes      165     Po18
+      510 f415.6366.4204  dynamic  Yes        5     Gi2/3/21
+      511 b40c.25e1.0010  dynamic  Yes        0     Po10
+      504 6cae.8b2e.33f5  dynamic  Yes       35     Po3
+      507 0050.569f.44a2  dynamic  Yes      165     Po18
+      505 00c0.dd26.ee78  dynamic  Yes       55     Po18
+      510 0050.569f.7f44  dynamic  Yes      165     Po18
+      601 0050.56bf.335b  dynamic  Yes      165     Po39
+      507 0050.569f.06b2  dynamic  Yes      165     Po18
+      506 0050.569f.634d  dynamic  Yes      165     Po18
+      468 001b.1700.0332  dynamic  Yes      165     Po44
+      504 6cae.8b2d.76d8  dynamic  Yes      165     Po18
+      506 0050.569f.63cb  dynamic  Yes      165     Po18
+      504 40f2.e9f3.ee3b  dynamic  Yes      165     Po3
+      509 0050.569f.2786  dynamic  Yes      165     Po18
+      501 0050.56bf.35ae  dynamic  Yes      165     Po39
+      506 0050.569f.60d7  dynamic  Yes      165     Po18
+      508 0050.569f.30d1  dynamic  Yes      165     Po18
+      401 0050.56bf.43d3  dynamic  Yes      165     Po39
+      503 0050.569f.500c  dynamic  Yes      165     Po18
+      514 0050.569f.0e2a  dynamic  Yes      280     Po18
+      504 1866.da64.f90a  dynamic  Yes       55     Gi1/4/46
+      510 0050.569f.1e1b  dynamic  Yes       25     Po18
+     1102 848f.69e8.38e2  dynamic  Yes      165     Gi1/3/36
+      510 0050.569f.3f63  dynamic  Yes        5     Po18
+      160 0050.569f.15fc  dynamic  Yes      315     Po18
+      508 0050.569f.531f  dynamic  Yes      205     Po18
+      514 0050.569f.3010  dynamic  Yes      165     Po18
+      504 6cae.8b2b.d3c9  dynamic  Yes      165     Po3
+      514 0050.569f.114c  dynamic  Yes      165     Po18
+      504 6cae.8b2e.9871  dynamic  Yes      165     Po3
+      514 a4dc.be1e.4ad2  dynamic  Yes        5     Po20
+      400 0026.cba4.b17f  dynamic  Yes      165     Po20
+      160 0050.569f.79d5  dynamic  Yes      165     Po18
+      398 f415.6365.4208  dynamic  Yes        5     Gi1/3/41
+      503 0050.569f.6f8d  dynamic  Yes      255     Po18
+      504 6cae.8b2e.2ee9  dynamic  Yes       65     Po3
+      400 240b.0a00.c55a  dynamic  Yes        5     Gi2/3/41
+      508 0050.569f.6c04  dynamic  Yes        5     Po18
+      508 0050.569f.5d58  dynamic  Yes      205     Po18
+      504 000e.1115.8174  dynamic  Yes      165     Po3
+        2 0050.569f.7f06  dynamic  Yes      165     Po18
+      508 f415.6365.4207  dynamic  Yes      165     Gi2/3/32
+      410 0011.328b.0692  dynamic  Yes      165     Po39
+      504 6cae.8b2f.0150  dynamic  Yes      165     Po18
+      207 6cab.0521.1fc2  dynamic  Yes      165     Gi2/4/2
+      202 0050.569f.46c3  dynamic  Yes        5     Po18
+      510 0050.569f.516a  dynamic  Yes      165     Po18
+  R   302 64a0.e7b3.d800   static   No       -      Router
+      145 0050.569f.23c9  dynamic  Yes      165     Po18
+      601 0050.56bf.3d65  dynamic  Yes      165     Po39
+      514 0050.569f.4111  dynamic  Yes      165     Po18
+      508 0050.569f.3dcf  dynamic  Yes      165     Po18
+       50 001b.1700.0330  dynamic  Yes        0     Po40
+      510 0050.569f.0277  dynamic  Yes      285     Po18
+       23 0000.0c07.ac32  dynamic  Yes      165     Gi1/3/39
+       70 001b.1700.0330  dynamic  Yes       55     Po40
+      508 0050.569f.3d8c  dynamic  Yes        5     Po18
+      514 0050.569f.70ff  dynamic  Yes      165     Po18
+      911 0050.56bf.7bc7  dynamic  Yes      165     Po39
+      504 6cae.8b2f.07b0  dynamic  Yes      165     Po18
+  R   591 64a0.e7b3.d800   static   No       -      Router
+      514 0050.569f.56b4  dynamic  Yes      165     Po18
+      501 0050.56bf.7c1b  dynamic  Yes      165     Po39
+      301 b40c.25e1.0011  dynamic  Yes       40     Po12
+      510 0050.569f.141b  dynamic  Yes      165     Po18
+      508 0050.569f.3b64  dynamic  Yes      165     Po18
+      202 0050.569f.51cb  dynamic  Yes        5     Po18
+      514 0050.569f.3546  dynamic  Yes      165     Po18
+      504 0050.569f.17a7  dynamic  Yes      165     Po18
+      504 3440.b5df.0710  dynamic  Yes        5     Po3
+      180 0050.569f.5561  dynamic  Yes      160     Po18
+      504 0050.569f.5487  dynamic  Yes      165     Po18
+      510 6cae.8b23.bd1a  dynamic  Yes      165     Po3
+      506 0050.569f.3862  dynamic  Yes      165     Po18
+      508 0050.569f.49d0  dynamic  Yes      165     Po18
+        2 b40c.25e1.0011  dynamic  Yes       10     Po12
+      508 0050.569f.6836  dynamic  Yes      165     Po18
+      802 0062.ecb5.7b81  dynamic  Yes      165     Gi1/3/18
+      504 0050.569f.0455  dynamic  Yes      165     Po18
+      507 0050.569f.3c9a  dynamic  Yes      165     Po18
+  R  1200 64a0.e7b3.d800   static   No       -      Router
+        2 0050.569f.388f  dynamic  Yes      165     Po18
+        2 000e.b6bc.8e16  dynamic  Yes        0     Gi2/3/25
+      504 6cae.8b2b.d539  dynamic  Yes       90     Po3
+      550 001b.1700.0131  dynamic  Yes        5     Po37
+      505 0050.569f.23a7  dynamic  Yes      165     Po18
+      506 0050.569f.79fe  dynamic  Yes      165     Po18
+      503 0050.569f.3aee  dynamic  Yes      295     Po18
+      803 0896.ada7.cbd0  dynamic  Yes      165     Gi1/3/15
+      202 0050.569f.31a6  dynamic  Yes        5     Po18
+      410 001b.1700.0131  dynamic  Yes        0     Po37
+      504 ecf4.bbe1.8e6c  dynamic  Yes      165     Po3

@@ -1,83 +1,410 @@
 Interface                      Status         Protocol Description
-Fa1                            down           down     
-Gi1/1                          up             up       F5-SEC-PORT1.1
-Gi1/2                          down           down     ENLACE F5 ServiceSegment 511
-Gi1/3                          up             up       F5-SEC-PORT1.2
-Gi1/4                          down           down     ASA PRIMARY gi0/2
-Gi1/5                          up             up       INT_TELMEX_100MB_FTX1539AJJX
-Gi1/6                          up             up       INT_TELMEX_50MB_FTX1529AHNR
-Gi1/7                          up             up       LINK TO OUTSIDE INTERNET
-Gi1/8                          down           down     ASA SECUNDARY gi0/2
-Gi1/9                          up             up       F5-Sec-Port2/1
-Gi1/10                         down           down     
-Gi1/11                         down           down     ASA SECUNDARY gi0/0
-Gi1/12                         up             up       F5-Port2/1
-Gi1/13                         down           down     Banxico
-Gi1/14                         down           down     
-Gi1/15                         down           down     VPN_BANXICO_PTO16_FORTI
-Gi1/16                         down           down     "DMZ-2-BLADE CENTER"
-Gi1/17                         down           down     SIP-ALESTRA
-Gi1/18                         up             down     P_MIRROR_RSA_B2B
-Gi1/19                         up             up       F5_port1/1
-Gi1/20                         down           down     ASA PRIMARY gi0/0
-Gi1/21                         down           down     WAF
-Gi1/22                         down           down     WAF
-Gi1/23                         up             up       PC to PALO_ALTO iDMZ P1/9
-Gi1/24                         up             up       PC to PALO_ALTO iDMZ P1/10
-Gi1/25                         up             up       "TO_6500_CORE"
-Gi1/26                         up             up       "TO_6500_CORE"
-Gi1/27                         down           down     
-Gi1/28                         up             up       F5_port1/2
-Gi1/29                         up             up       PC to PALO_ALTO INSIDE P1/1
-Gi1/30                         up             up       PC to PALO_ALTO INSIDE P1/2
-Gi1/31                         up             down     PC to PALO_ALTO INSIDE S1/1
-Gi1/32                         up             down     PC to PALO_ALTO INSIDE S1/2
-Gi1/33                         up             up       PC to PALO_ALTO OUTSIDE P1/3
-Gi1/34                         up             up       PC to PALO_ALTO OUTSIDE P1/4
-Gi1/35                         up             down     PC to PALO_ALTO OUTSIDE S1/3
-Gi1/36                         up             down     PC to PALO_ALTO OUTSIDE S1/4
-Gi1/37                         up             down     PC to PALO_ALTO iDMZ S1/9
-Gi1/38                         up             down     PC to PALO_ALTO iDMZ S1/10
-Gi1/39                         down           down     PORT-CHANNEL to CHECKPOINT DMZ ETH5-CHK1
-Gi1/40                         down           down     "BS1-SW1"
-Gi1/41                         up             up       PC to PALO_ALTO eDMZ P1/11
-Gi1/42                         up             up       PC to PALO_ALTO eDMZ P1/12
-Gi1/43                         down           down     INT_TELMEX_100MB_FORTI1/17
-Gi1/44                         down           down     INT_TELMEX_50MB_FORTI1/18
-Gi1/45                         up             down     PC to PALO_ALTO eDMZ S1/11
-Gi1/46                         up             down     PC to PALO_ALTO eDMZ S1/12
-Gi1/47                         up             up       TO-PA3020-ZAM
-Gi1/48                         up             up       TO-PA3020-ZAM
-Te3/1                          down           down     
-Te3/2                          down           down     F5-Sec-Port2/1
-Gi3/3                          down           down     
-Gi3/4                          down           down     
-Gi3/5                          down           down     
-Gi3/6                          down           down     
-Te4/1                          up             up       F5-Sec-Port2/1 Pendiente por SFP
-Te4/2                          down           down     
-Gi4/3                          down           down     
-Gi4/4                          down           down     
-Gi4/5                          down           down     
-Gi4/6                          down           down     
-Po1                            down           down     "DMZ"
-Po2                            up             up       "DMZ-2-FLEX"
-Po3                            down           down     PORT-CHANNEL to CHECKPOINT DMZ
-Po4                            down           down     PORT-CHANNEL to CHECKPOINT 2 DMZ
-Po5                            down           down     
-Po6                            up             up       "TO_6500_CORE"
-Po7                            up             up       PORT-CHANNEL PALO_ALTO INSIDE
-Po8                            up             up       PORT-CHANNEL PALO_ALTO OUTSIDE
-Po9                            up             up       PORT-CHANNEL PALO_ALTO iDMZ 
-Po10                           up             up       PORT-CHANNEL PALO_ALTO eDMZ
+Te1/1/1                        admin down     down     
+Te1/1/2                        down           down     ENLACE_BACKUP_FLEX_20GB
+Te1/1/3                        up             up       ENLACE_PRODUCCION_FLEX_80GB
+Te1/1/4                        up             up       ENLACE_PRODUCCION_FLEX_80GB
+Te1/1/5                        up             up       TO_4500X-ZAM
+Te1/1/6                        up             up       PC_PALOALTO_SEG01_1/19
+Te1/1/7                        up             up       PORTCHANNEL 2 AS400-POWER8
+Te1/1/8                        up             up       "TO TOR_3850"
+Te1/1/9                        up             up       "TO TOR_3850"
+Te1/1/10                       up             up       "TO TOR_3850"
+Te1/1/11                       up             up       "TO TOR_3850"
+Te1/1/12                       admin down     down     "TO 3850_TOR NOT ENABLE"
+Te1/1/13                       admin down     down     "TO 3850_TOR NOT ENABLE"
+Te1/1/14                       up             down     PC_PALOALTO_SEG02_1/19
+Te1/1/15                       up             up       PC_PALOALTO_SEG01_1/5
+Te1/1/16                       down           down     PC_PALOALTO_SEG02_1/5
+Gi1/2/1                        admin down     down     
+Gi1/2/2                        admin down     down     
+Gi1/2/3                        admin down     down     
+Gi1/2/4                        admin down     down     
+Gi1/2/5                        admin down     down     
+Gi1/2/6                        admin down     down     
+Gi1/2/7                        admin down     down     
+Gi1/2/8                        admin down     down     
+Gi1/2/9                        admin down     down     
+Gi1/2/10                       down           down     
+Gi1/2/11                       admin down     down     
+Gi1/2/12                       admin down     down     
+Gi1/2/13                       admin down     down     
+Gi1/2/14                       admin down     down     
+Gi1/2/15                       admin down     down     
+Gi1/2/16                       admin down     down     
+Gi1/2/17                       admin down     down     
+Gi1/2/18                       admin down     down     
+Gi1/2/19                       admin down     down     
+Gi1/2/20                       admin down     down     
+Gi1/2/21                       admin down     down     
+Gi1/2/22                       admin down     down     
+Gi1/2/23                       admin down     down     
+Gi1/2/24                       admin down     down     
+Gi1/2/25                       admin down     down     
+Gi1/2/26                       admin down     down     
+Gi1/2/27                       admin down     down     
+Gi1/2/28                       admin down     down     
+Gi1/2/29                       admin down     down     
+Gi1/2/30                       admin down     down     
+Gi1/2/31                       admin down     down     
+Gi1/2/32                       admin down     down     
+Gi1/2/33                       admin down     down     
+Gi1/2/34                       admin down     down     
+Gi1/2/35                       admin down     down     
+Gi1/2/36                       admin down     down     
+Gi1/2/37                       admin down     down     
+Gi1/2/38                       admin down     down     
+Gi1/2/39                       admin down     down     
+Gi1/2/40                       admin down     down     
+Gi1/2/41                       admin down     down     
+Gi1/2/42                       admin down     down     
+Gi1/2/43                       admin down     down     
+Gi1/2/44                       admin down     down     
+Gi1/2/45                       admin down     down     
+Gi1/2/46                       admin down     down     
+Gi1/2/47                       admin down     down     
+Gi1/2/48                       admin down     down     
+Gi1/3/1                        up             up       PC to PALO_ALTO INSIDE P1/1
+Gi1/3/2                        up             up       PC to PALO_ALTO INSIDE S1/1
+Gi1/3/3                        up             up       PC to PALO_ALTO OUTSIDE P1/3
+Gi1/3/4                        up             up       
+Gi1/3/5                        up             up       PC to PALO_ALTO OUTSIDE S1/3
+Gi1/3/6                        up             up       PC to PALO_ALTO iDMZ P1/9
+Gi1/3/7                        up             up       TO-PA3020-ZAM
+Gi1/3/8                        up             down     PC to PALO_ALTO iDMZ S1/9
+Gi1/3/9                        up             up       CONECTED 2 MPLS ALESTRA
+Gi1/3/10                       up             up       PC to PALO_ALTO eDMZ P1/11
+Gi1/3/11                       up             up       MPLS_TELVISTA-TELMEX_P
+Gi1/3/12                       up             up       TO-PA3020-ZAM
+Gi1/3/13                       up             up       IMPERVA SEGMENTO 510
+Gi1/3/14                       up             down     PC to PALO_ALTO eDMZ S1/11
+Gi1/3/15                       up             up       INT_TELMEX_100MB_FTX1539AJJX
+Gi1/3/16                       down           down     po25 checkpoint 2 to 6500
+Gi1/3/17                       up             up       INT_TELMEX_50MB_FTX1529AHNR
+Gi1/3/18                       up             up       LINK TO OUTSIDE INTERNET
+Gi1/3/19                       up             up       RIVERBED-ORANGE
+Gi1/3/20                       up             up       PTO A QUALYSQUARD/E077
+Gi1/3/21                       up             up       MGMT_PALOALTO_SEG01_PTOMGMT
+Gi1/3/22                       up             up       PALO_ALTO
+Gi1/3/23                       up             up       PALO_ALTO
+Gi1/3/24                       up             down     P_MIRROR_RSA_B2B
+Gi1/3/25                       up             up       INPATH0_0-RIVERBED-ORANGE
+Gi1/3/26                       up             up       
+Gi1/3/27                       up             up       F5-SEC-PORT1.2
+Gi1/3/28                       up             up       F5-Sec-Port2/1
+Gi1/3/29                       up             up       Datos_ISE_1
+Gi1/3/30                       up             up       F5-Port2/1
+Gi1/3/31                       up             up       Inside_Po13_PA_BU
+Gi1/3/32                       up             up       F5-Port1/4
+Gi1/3/33                       up             down     Inside_Po13_PA_BU
+Gi1/3/34                       up             up       Outside_Po14_PA_BU
+Gi1/3/35                       up             down     Outside_Po14_PA_BU
+Gi1/3/36                       up             up       IronPort_To_FW-BU
+Gi1/3/37                       up             up       PTO A CISCO3945/E144
+Gi1/3/38                       up             up       F5_port1/1
+Gi1/3/39                       up             up       L2L_ATENTO_ROMA_MARCATEL
+Gi1/3/40                       up             up       PTO A FORTIGATE 800C/E146
+Gi1/3/41                       up             up       F5_port1/2
+Gi1/3/42                       down           down     MONITOREO_STORAGE_INFINIDAT
+Gi1/3/43                       down           down     
+Gi1/3/44                       down           down     ETH2 DATA POWER 2
+Gi1/3/45                       down           down     
+Gi1/3/46                       up             up       PTO A SW<DMZ>/E119
+Gi1/3/47                       down           down     ETH2 DATA POWER 1
+Gi1/3/48                       up             up       PTO A SW_MNGT_1/E111
+Gi1/4/1                        down           down     PEPLINK-MPLS
+Gi1/4/2                        down           down     PEPLINK-TRUNK
+Gi1/4/3                        up             up       DFW01PA:Mgmt
+Gi1/4/4                        down           down     **TO-LAN-PPLNK-210**
+Gi1/4/5                        down           down     SBC_TELMEX_TRIARA_P0
+Gi1/4/6                        down           down     CMS_Toreo
+Gi1/4/7                        up             up       "TO FORTI_IBMDATAPOWER"
+Gi1/4/8                        down           down     SBC_TELMEX_MGMT
+Gi1/4/9                        down           down     NETBACKUP VLAN 522
+Gi1/4/10                       down           down     
+Gi1/4/11                       up             up       "TO FORTI_IBMDATAPOWER"
+Gi1/4/12                       admin down     down     "BS2-SW1"
+Gi1/4/13                       down           down     
+Gi1/4/14                       down           down     PTO A -  ASA 5520/E126
+Gi1/4/15                       up             up       Proxy Alestra
+Gi1/4/16                       down           down     
+Gi1/4/17                       admin down     down     "BS1-SW1"
+Gi1/4/18                       up             up       CONECTED MPLS TELMEX
+Gi1/4/19                       up             up       TO_PA-3020-02-ZAM-LAN-3850-03
+Gi1/4/20                       up             up       TO_PA-3020-02-ZAM-LAN-3850-04
+Gi1/4/21                       up             up       TO_PA-3020-02-ZAM-LAN-3850-07
+Gi1/4/22                       up             up       TO_PA-3020-02-ZAM-LAN-3850-08
+Gi1/4/23                       up             up       CONNECTED 2 FORTINET 2
+Gi1/4/24                       down           down     Enlace Maxcom Santander Santa Fe
+Gi1/4/25                       up             up       "DATA PORT - P1 IRONPORT 1"
+Gi1/4/26                       down           down     
+Gi1/4/27                       up             up       TO_PA-3020-01-ZAM-LAN-3850-03
+Gi1/4/28                       up             up       TO_PA-3020-01-ZAM-LAN-3850-04
+Gi1/4/29                       up             up       TO_PA-3020-01-ZAM-LAN-3850-07
+Gi1/4/30                       up             up       TO_PA-3020-01-ZAM-LAN-3850-08
+Gi1/4/31                       down           down     ENLACE_PTO_11_FORTINET
+Gi1/4/32                       down           down     Orange
+Gi1/4/33                       down           down     
+Gi1/4/34                       down           down     "BS1-SW2"
+Gi1/4/35                       up             up       
+Gi1/4/36                       down           down     PTO A ASA5520/E127
+Gi1/4/37                       up             up       
+Gi1/4/38                       up             up       PARTICIONES_AS400_KIO
+Gi1/4/39                       up             up       
+Gi1/4/40                       down           down     
+Gi1/4/41                       up             up       MGMT ISE2
+Gi1/4/42                       down           down     "TO_CORE_ANTARA_3850-1_G1/1/4"
+Gi1/4/43                       admin down     down     not used
+Gi1/4/44                       up             up       F5-Port1/3
+Gi1/4/45                       down           down     
+Gi1/4/46                       up             up       iDRAC RSA
+Gi1/4/47                       down           down     ETH1 DATA POWER 2
+Gi1/4/48                       down           down     PTO A SW_MNGT_2/E112
+Gi1/5/1                        admin down     down     
+Gi1/5/2                        admin down     down     
+Gi1/5/3                        admin down     down     
+Te1/5/4                        up             up       
+Te1/5/5                        up             up       
+Te2/1/1                        admin down     down     
+Te2/1/2                        admin down     down     ENLACE_BACKUP_FLEX_20GB
+Te2/1/3                        up             up       ENLACE_PRODUCCION_FLEX_80GB
+Te2/1/4                        up             up       ENLACE_PRODUCCION_FLEX_80GB
+Te2/1/5                        up             up       TO_4500X-ZAM
+Te2/1/6                        up             up       PC_PALOALTO_SEG01_1/20
+Te2/1/7                        up             up       PORTCHANNEL 2 AS400-POWER8
+Te2/1/8                        up             up       "TO TOR_3850"
+Te2/1/9                        up             up       "TO TOR_3850"
+Te2/1/10                       up             up       "TO TOR_3850"
+Te2/1/11                       up             up       "TO TOR_3850"
+Te2/1/12                       admin down     down     
+Te2/1/13                       admin down     down     "TO 3850_TOR NOT ENABLE"
+Te2/1/14                       up             down     PC_PALOALTO_SEG02_1/20
+Te2/1/15                       up             up       PC_PALOALTO_SEG01_1/6
+Te2/1/16                       up             down     PC_PALOALTO_SEG02_1/6
+Gi2/2/1                        admin down     down     
+Gi2/2/2                        admin down     down     
+Gi2/2/3                        admin down     down     
+Gi2/2/4                        admin down     down     
+Gi2/2/5                        admin down     down     
+Gi2/2/6                        admin down     down     
+Gi2/2/7                        admin down     down     
+Gi2/2/8                        admin down     down     
+Gi2/2/9                        admin down     down     
+Gi2/2/10                       admin down     down     
+Gi2/2/11                       admin down     down     
+Gi2/2/12                       admin down     down     
+Gi2/2/13                       admin down     down     
+Gi2/2/14                       admin down     down     
+Gi2/2/15                       admin down     down     
+Gi2/2/16                       admin down     down     
+Gi2/2/17                       admin down     down     
+Gi2/2/18                       admin down     down     
+Gi2/2/19                       admin down     down     
+Gi2/2/20                       admin down     down     
+Gi2/2/21                       admin down     down     
+Gi2/2/22                       admin down     down     
+Gi2/2/23                       admin down     down     
+Gi2/2/24                       admin down     down     
+Gi2/2/25                       admin down     down     
+Gi2/2/26                       admin down     down     
+Gi2/2/27                       admin down     down     
+Gi2/2/28                       admin down     down     
+Gi2/2/29                       admin down     down     
+Gi2/2/30                       admin down     down     
+Gi2/2/31                       admin down     down     
+Gi2/2/32                       admin down     down     
+Gi2/2/33                       admin down     down     
+Gi2/2/34                       admin down     down     
+Gi2/2/35                       admin down     down     
+Gi2/2/36                       admin down     down     
+Gi2/2/37                       admin down     down     
+Gi2/2/38                       admin down     down     
+Gi2/2/39                       admin down     down     
+Gi2/2/40                       admin down     down     
+Gi2/2/41                       admin down     down     
+Gi2/2/42                       admin down     down     
+Gi2/2/43                       admin down     down     
+Gi2/2/44                       admin down     down     
+Gi2/2/45                       admin down     down     
+Gi2/2/46                       admin down     down     
+Gi2/2/47                       down           down     ENLACE A F5-SECUNDARIO FIBRA OPTICA
+Gi2/2/48                       admin down     down     
+Gi2/3/1                        up             up       PC to PALO_ALTO INSIDE P1/2
+Gi2/3/2                        up             up       PC to PALO_ALTO INSIDE S1/2
+Gi2/3/3                        up             up       PC to PALO_ALTO OUTSIDE P1/4
+Gi2/3/4                        down           down     PTO A AVAYA MGATEWAY2 G450 ETH LAN 05/E160
+Gi2/3/5                        up             up       PC to PALO_ALTO OUTSIDE S1/4
+Gi2/3/6                        up             up       PC to PALO_ALTO iDMZ P1/10
+Gi2/3/7                        up             up       Inside_Po13_PA_BU
+Gi2/3/8                        up             down     Inside_Po13_PA_BU
+Gi2/3/9                        admin down     down     PTO A DCS HP PROLIAN DL360 G7 PO1/E152
+Gi2/3/10                       up             up       PC to PALO_ALTO eDMZ P1/12
+Gi2/3/11                       up             up       
+Gi2/3/12                       up             up       
+Gi2/3/13                       up             up       Outside_Po14_PA_BU
+Gi2/3/14                       up             down     Outside_Po14_PA_BU
+Gi2/3/15                       up             up       IronPort_To_FW-BU
+Gi2/3/16                       down           down     AVAYA_GW450
+Gi2/3/17                       up             up       << Conexion a 3560-2 >>
+Gi2/3/18                       down           down     connected 2 FLEX
+Gi2/3/19                       down           down     connected to FLEX
+Gi2/3/20                       down           down     
+Gi2/3/21                       up             up       F5 1.4 secundario
+Gi2/3/22                       down           down     PTO A DL360G7/E162
+Gi2/3/23                       down           down     PTO A CPUHP/E161
+Gi2/3/24                       down           down     PTO A IVR AES POWER EDGE R610(AVAYA)/E164
+Gi2/3/25                       up             up       INPATH0_1-RIVERBED-ORANGE
+Gi2/3/26                       down           down     
+Gi2/3/27                       down           down     
+Gi2/3/28                       down           down     connected 2 FLEX
+Gi2/3/29                       admin down     down     "TO_WLC"
+Gi2/3/30                       admin down     down     
+Gi2/3/31                       admin down     down     
+Gi2/3/32                       up             up       ENLACE A F5-PRIMARIO COBRE 1.6  (FIBRA OPTICA)
+Gi2/3/33                       down           down     prueba Espejo
+Gi2/3/34                       down           down     
+Gi2/3/35                       down           down     PTO_PRUEBAS_VLAN518
+Gi2/3/36                       down           down     MGMT CHECKPOINT
+Gi2/3/37                       down           down     Pto_Pruebas_518
+Gi2/3/38                       up             up       SERVERS_DRP
+Gi2/3/39                       up             up       L2L_ATENTO_AXTEL
+Gi2/3/40                       up             up       MGMT_PALOALTO_SEG02_PTOMGMT
+Gi2/3/41                       up             up       PALO_ALTO
+Gi2/3/42                       up             up       PALO_ALTO
+Gi2/3/43                       admin down     down     
+Gi2/3/44                       admin down     down     
+Gi2/3/45                       up             up       ENLACE A F5-SECUNDARIO COBRE 1.6  (FIBRA OPTICA)
+Gi2/3/46                       up             up       PTO A SW<DMZ>/E119
+Gi2/3/47                       up             down     PORT_MIRROR_NETWITNESS
+Gi2/3/48                       up             up       PTO A SW-MNGT_1/E111
+Gi2/4/1                        up             down     PC to PALO_ALTO iDMZ S1/10
+Gi2/4/2                        up             up       MPLS_TELVISTA-TELMEX_S
+Gi2/4/3                        up             up       DFW01PB:Mgmt
+Gi2/4/4                        up             down     PC to PALO_ALTO eDMZ S1/12
+Gi2/4/5                        up             up       TO_PA-3020-01-ZAM-LAN-3850-05
+Gi2/4/6                        up             up       TO_PA-3020-01-ZAM-LAN-3850-06
+Gi2/4/7                        up             up       TO_PA-3020-01-ZAM-LAN-3850-09
+Gi2/4/8                        up             up       TO_PA-3020-01-ZAM-LAN-3850-10
+Gi2/4/9                        up             up       Datos_ISE_2
+Gi2/4/10                       admin down     down     
+Gi2/4/11                       down           down     L2L_KIO-TOREO
+Gi2/4/12                       down           down     
+Gi2/4/13                       down           down     JABBER
+Gi2/4/14                       up             down     IMPERVA PORT MIRROR
+Gi2/4/15                       down           down     OLD.CHECKPOINT.BACKUP
+Gi2/4/16                       up             up       CONECTED 2 MPLS TELMEX BACKUP
+Gi2/4/17                       up             up       ETH2 DATA POWER 2
+Gi2/4/18                       down           down     ETH1 DATA POWER 2
+Gi2/4/19                       up             up       int 1.3 F5 secundario 
+Gi2/4/20                       down           down     LAN_WIFI_WLC
+Gi2/4/21                       up             up       TO_PA-3020-02-ZAM-LAN-3850-05
+Gi2/4/22                       up             up       TO_PA-3020-02-ZAM-LAN-3850-06
+Gi2/4/23                       up             up       TO_PA-3020-02-ZAM-LAN-3850-09
+Gi2/4/24                       up             up       TO_PA-3020-02-ZAM-LAN-3850-10
+Gi2/4/25                       up             up       "DATA PORT - P1 IRONPORT 2"
+Gi2/4/26                       down           down     
+Gi2/4/27                       up             up       RSA MGMT
+Gi2/4/28                       down           down     
+Gi2/4/29                       down           down     
+Gi2/4/30                       up             up       MGMT ISE1
+Gi2/4/31                       down           down     
+Gi2/4/32                       down           down     
+Gi2/4/33                       admin down     down     
+Gi2/4/34                       down           down     
+Gi2/4/35                       admin down     down     L2L_Antara-Telvista_Maxcom
+Gi2/4/36                       up             up       Pto15 FORTINET 
+Gi2/4/37                       down           down     po24 to checkpoint 1 to 6500
+Gi2/4/38                       down           down     po24 to checkpoint 1 to 6500
+Gi2/4/39                       down           down     po25 checkpoint 2 to 6500
+Gi2/4/40                       down           down     po25 checkpoint 2 to 6500
+Gi2/4/41                       admin down     down     
+Gi2/4/42                       down           down     "TO_CORE_ANTARA_3850-2_G1/2"
+Gi2/4/43                       admin down     down     
+Gi2/4/44                       admin down     down     
+Gi2/4/45                       admin down     down     
+Gi2/4/46                       admin down     down     
+Gi2/4/47                       admin down     down     
+Gi2/4/48                       admin down     down     
+Gi2/5/1                        down           down     
+Gi2/5/2                        admin down     down     
+Gi2/5/3                        admin down     down     
+Te2/5/4                        up             up       
+Te2/5/5                        up             up       
+Po1                            up             up       
+Po2                            up             up       
+Po3                            up             up       "TO TOR_3850"
+Po10                           up             up       PC_PALOALTO_SEGVLAN_INSIDE
+Po12                           up             up       PC_PALOALTO_SEGVLAN_OUTSIDE_PRIM
+Po13                           up             up       Inside_PaloAlto_BU
+Po14                           up             up       Outside_PaloAlto_BU
+Po15                           down           down     "BS1-SW2"
+Po18                           up             up       PORTCHANNEL 2 FLEX
+Po20                           up             up       << Conexion a 3560-1 >>
+Po21                           up             up       << Conexion a 3560-2 >>
+Po24                           down           down     PORTCHANNEL 2 CHECKPOINTs
+Po25                           down           down     PORTCHANNEL 2 CHECKPOINTs
+Po33                           up             up       "TO_4500_DMZ"
+Po35                           up             up       TO_PA-3020-01-ZAM-LAN-3850
+Po36                           up             up       TO_PA-3020-02-ZAM-LAN-3850
+Po37                           up             up       TO_PA-3020-01-ZAM-LAN-3850
+Po38                           up             up       TO_PA-3020-02-ZAM-LAN-3850
+Po39                           up             up       TO_4500X-ZAM
+Po40                           up             up       PORT-CHANNEL PALO_ALTO INSIDE PRIM
+Po41                           up             up       PORT-CHANNEL PALO_ALTO INSIDE SEC
+Po42                           up             up       PORT-CHANNEL PALO_ALTO OUTSIDE PRIM
+Po43                           up             up       PORT-CHANNEL PALO_ALTO OUTSIDE SEC
+Po44                           up             up       PORT-CHANNEL PALO_ALTO iDMZ 
+Po45                           up             up       PORT-CHANNEL PALO_ALTO eDMZ
+Po400                          up             up       PORTCHANNEL 2 AS400-POWER8 CHASIS 1
 Vl1                            down           down     
-Vl40                           up             up       
-Vl70                           up             up       
-Vl80                           up             up       
-Vl100                          up             up       
-Vl368                          admin down     down     
+Vl2                            up             up       
+Vl3                            down           down     
+Vl4                            up             up       
+Vl5                            up             up       
+Vl6                            up             up       
+Vl7                            down           down     
+Vl8                            down           down     
+Vl19                           down           down     
+Vl23                           up             up       L2L_ATENTO
+Vl40                           admin down     down     
+Vl41                           down           down     
+Vl145                          up             up       
+Vl160                          up             up       
+Vl180                          up             up       
+Vl201                          up             up       DDI_VLAN_Mexico
+Vl202                          up             up       Conexion ZAM TO REPLICA
+Vl203                          down           down     MPLS Telmex HSRP
+Vl204                          up             up       
+Vl205                          down           down     L2L_ANTARA-KIO_PRIM
+Vl207                          up             up       
+Vl300                          down           down     
+Vl301                          up             up       
+Vl304                          down           down     
+Vl305                          down           down     
 Vl398                          up             up       
-Vl400                          up             up       MGT_LAN
+Vl400                          up             up       Management
 Vl468                          up             up       
-Vl504                          admin down     down     
-Vl511                          up             up
+Vl500                          down           down     Management_Switch
+Vl502                          admin down     down     
+Vl503                          up             up       
+Vl504                          up             up       
+Vl505                          up             up       
+Vl506                          up             up       
+Vl507                          up             up       
+Vl508                          up             up       
+Vl509                          up             up       
+Vl510                          up             up       
+Vl511                          admin down     down     
+Vl512                          down           down     
+Vl514                          up             up       SERVERS_PRO_2
+Vl582                          down           down     ATENCION TELEFONICA TACUBAYA
+Vl584                          up             up       
+Vl586                          down           down     
+Vl591                          down           down     Region_GAD
+Vl800                          up             up       
+Vl851                          down           down     
+Vl852                          down           down     
+Vl949                          down           down     
+Vl1100                         up             up       
+Vl1101                         up             up       FW-USERBROWSER
+Vl1102                         up             up       
+Vl1200                         up             up       FW_ZAM                  
